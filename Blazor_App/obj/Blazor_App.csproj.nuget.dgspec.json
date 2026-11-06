@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj": {}
+    "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj": {
+    "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
+        "projectUniqueName": "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
         "projectName": "Blazor_App",
-        "projectPath": "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
+        "projectPath": "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
         "packagesPath": "C:\\Users\\vpera\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\obj\\",
+        "outputPath": "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

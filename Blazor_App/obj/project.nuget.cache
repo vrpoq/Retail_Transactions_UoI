@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UTC7XICE3eI=",
+  "dgSpecHash": "MbQ7YIale7c=",
   "success": true,
-  "projectFilePath": "c:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
+  "projectFilePath": "C:\\Users\\vpera\\Retail_Transactions_UoI\\Retail_Transactions_UoI\\Blazor_App\\Blazor_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vpera\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.14\\microsoft.aspnetcore.app.internal.assets.10.0.14.nupkg.sha512"
   ],
