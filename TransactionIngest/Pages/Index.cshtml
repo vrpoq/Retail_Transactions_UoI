@@ -1,0 +1,62 @@
+@page
+@model TransactionIngest.Pages.Transactions.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].SourceSystem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].TransactionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].CardNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].LocationCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaction[0].TransactionTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Transaction) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SourceSystem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransactionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransactionTime)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
