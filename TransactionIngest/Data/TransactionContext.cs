@@ -18,7 +18,7 @@ namespace TransactionIngest.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Transaction>().ToTable("Transaction");
+            modelBuilder.Entity<Transaction>().ToTable("Transaction").HasKey(c => new { c.SourceSystem, c.TransactionId });
         }
     }
 }

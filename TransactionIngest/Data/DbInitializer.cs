@@ -14,16 +14,9 @@ namespace TransactionIngest.Data
 
             var transactions = new Transaction[]
             {
-                /*
-                new Student{FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2019-09-01")},
-                new Student{FirstMidName="Meredith",LastName="Alonso",EnrollmentDate=DateTime.Parse("2017-09-01")},
-                new Student{FirstMidName="Arturo",LastName="Anand",EnrollmentDate=DateTime.Parse("2018-09-01")},
-                new Student{FirstMidName="Gytis",LastName="Barzdukas",EnrollmentDate=DateTime.Parse("2017-09-01")},
-                new Student{FirstMidName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2017-09-01")},
-                new Student{FirstMidName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2016-09-01")},
-                new Student{FirstMidName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2018-09-01")},
-                new Student{FirstMidName="Nino",LastName="Olivetto",EnrollmentDate=DateTime.Parse("2019-09-01")}
-                */
+                new Transaction{SourceSystem="Store Uptown",TransactionId=100001,CardNumber="***1111",LocationCode="UPTOWN",ProductName="Wireless Mouse",Amount=24.99m,TransactionTime=DateTime.Parse("2026-02-27T08:15:30Z")},
+                new Transaction{SourceSystem="Store Downtown",TransactionId=100001,CardNumber="***0002",LocationCode="DOWNTOWN",ProductName="Mechanical Keyboard",Amount=89.99m,TransactionTime=DateTime.Parse("2026-02-27T09:45:12Z")},
+                new Transaction{SourceSystem="Online",TransactionId=100001,CardNumber="***4444",LocationCode="ONLINE",ProductName="USB-C Docking Station",Amount=129.95m,TransactionTime=DateTime.Parse("2026-02-27T11:20:05Z")}
             };
 
             context.Transactions.AddRange(transactions);
