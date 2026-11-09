@@ -1,0 +1,272 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100220,
+ "cardNumber": "***6756",
+ "locationCode": "UPTOWN",
+ "productName": "P Earbuds",
+ "amount": 40.16,
+ "transactionTime": "2026-02-28T06:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100221,
+ "cardNumber": "***0405",
+ "locationCode": "UPTOWN",
+ "productName": "Q Earbuds",
+ "amount": 40.17,
+ "transactionTime": "2026-02-28T06:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100222,
+ "cardNumber": "***0797",
+ "locationCode": "UPTOWN",
+ "productName": "R Earbuds",
+ "amount": 40.18,
+ "transactionTime": "2026-02-28T06:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100223,
+ "cardNumber": "***3278",
+ "locationCode": "UPTOWN",
+ "productName": "S Earbuds",
+ "amount": 40.19,
+ "transactionTime": "2026-02-28T06:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100224,
+ "cardNumber": "***8211",
+ "locationCode": "UPTOWN",
+ "productName": "T Earbuds",
+ "amount": 40.20,
+ "transactionTime": "2026-02-28T06:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100225,
+ "cardNumber": "***7268",
+ "locationCode": "UPTOWN",
+ "productName": "U Earbuds",
+ "amount": 40.21,
+ "transactionTime": "2026-02-28T06:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100226,
+ "cardNumber": "***0467",
+ "locationCode": "UPTOWN",
+ "productName": "V Earbuds",
+ "amount": 40.22,
+ "transactionTime": "2026-02-28T06:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100227,
+ "cardNumber": "***2013",
+ "locationCode": "UPTOWN",
+ "productName": "W Earbuds",
+ "amount": 40.23,
+ "transactionTime": "2026-02-28T06:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100228,
+ "cardNumber": "***2660",
+ "locationCode": "UPTOWN",
+ "productName": "X Earbuds",
+ "amount": 40.24,
+ "transactionTime": "2026-02-28T06:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100229,
+ "cardNumber": "***3835",
+ "locationCode": "UPTOWN",
+ "productName": "Y Earbuds",
+ "amount": 40.25,
+ "transactionTime": "2026-02-28T06:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100220,
+ "cardNumber": "***6756",
+ "locationCode": "DOWNTOWN",
+ "productName": "P Earbuds",
+ "amount": 40.16,
+ "transactionTime": "2026-02-28T06:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100221,
+ "cardNumber": "***0405",
+ "locationCode": "DOWNTOWN",
+ "productName": "Q Earbuds",
+ "amount": 40.17,
+ "transactionTime": "2026-02-28T06:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100222,
+ "cardNumber": "***0797",
+ "locationCode": "DOWNTOWN",
+ "productName": "R Earbuds",
+ "amount": 40.18,
+ "transactionTime": "2026-02-28T06:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100223,
+ "cardNumber": "***3278",
+ "locationCode": "DOWNTOWN",
+ "productName": "S Earbuds",
+ "amount": 40.19,
+ "transactionTime": "2026-02-28T06:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100224,
+ "cardNumber": "***8211",
+ "locationCode": "DOWNTOWN",
+ "productName": "T Earbuds",
+ "amount": 40.20,
+ "transactionTime": "2026-02-28T06:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100225,
+ "cardNumber": "***7268",
+ "locationCode": "DOWNTOWN",
+ "productName": "U Earbuds",
+ "amount": 40.21,
+ "transactionTime": "2026-02-28T06:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100226,
+ "cardNumber": "***0467",
+ "locationCode": "DOWNTOWN",
+ "productName": "V Earbuds",
+ "amount": 40.22,
+ "transactionTime": "2026-02-28T06:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100227,
+ "cardNumber": "***2013",
+ "locationCode": "DOWNTOWN",
+ "productName": "W Earbuds",
+ "amount": 40.23,
+ "transactionTime": "2026-02-28T06:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100228,
+ "cardNumber": "***2660",
+ "locationCode": "DOWNTOWN",
+ "productName": "X Earbuds",
+ "amount": 40.24,
+ "transactionTime": "2026-02-28T06:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100229,
+ "cardNumber": "***3835",
+ "locationCode": "DOWNTOWN",
+ "productName": "Y Earbuds",
+ "amount": 40.25,
+ "transactionTime": "2026-02-28T06:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100220,
+ "cardNumber": "***6756",
+ "locationCode": "ONLINE",
+ "productName": "P Earbuds",
+ "amount": 40.16,
+ "transactionTime": "2026-02-28T06:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100221,
+ "cardNumber": "***0405",
+ "locationCode": "ONLINE",
+ "productName": "Q Earbuds",
+ "amount": 40.17,
+ "transactionTime": "2026-02-28T06:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100222,
+ "cardNumber": "***0797",
+ "locationCode": "ONLINE",
+ "productName": "R Earbuds",
+ "amount": 40.18,
+ "transactionTime": "2026-02-28T06:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100223,
+ "cardNumber": "***3278",
+ "locationCode": "ONLINE",
+ "productName": "S Earbuds",
+ "amount": 40.19,
+ "transactionTime": "2026-02-28T06:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100224,
+ "cardNumber": "***8211",
+ "locationCode": "ONLINE",
+ "productName": "T Earbuds",
+ "amount": 40.20,
+ "transactionTime": "2026-02-28T06:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100225,
+ "cardNumber": "***7268",
+ "locationCode": "ONLINE",
+ "productName": "U Earbuds",
+ "amount": 40.21,
+ "transactionTime": "2026-02-28T06:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100226,
+ "cardNumber": "***0467",
+ "locationCode": "ONLINE",
+ "productName": "V Earbuds",
+ "amount": 40.22,
+ "transactionTime": "2026-02-28T06:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100227,
+ "cardNumber": "***2013",
+ "locationCode": "ONLINE",
+ "productName": "W Earbuds",
+ "amount": 40.23,
+ "transactionTime": "2026-02-28T06:42:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100228,
+ "cardNumber": "***2660",
+ "locationCode": "ONLINE",
+ "productName": "X Earbuds",
+ "amount": 40.24,
+ "transactionTime": "2026-02-28T06:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100229,
+ "cardNumber": "***3835",
+ "locationCode": "ONLINE",
+ "productName": "Y Earbuds",
+ "amount": 40.25,
+ "transactionTime": "2026-02-28T06:54:30Z"
+ }
+]

@@ -258,3 +258,34 @@ C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\TransactionIngest.pdb
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\TransactionIngest.genruntimeconfig.cache
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\ref\TransactionIngest.dll
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_10_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_11_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_12_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_13_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_14_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_15_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_16_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_17_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_18_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_19_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_1_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_20_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_21_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_22_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_23_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_24_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_25_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_26_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_27_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_28_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_2_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_3_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_4_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_5_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_6_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_7_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_8_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_9_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\downtown_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\online_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\uptown_sample.json

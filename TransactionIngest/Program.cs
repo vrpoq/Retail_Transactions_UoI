@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using TransactionIngest.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -28,10 +29,11 @@ else
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-
     var context = services.GetRequiredService<TransactionContext>();
+
     context.Database.EnsureCreated();
-    DbInitializer.Initialize(context);
+    TransactionProcessor.SaveToDB(context);
+    //DbInitializer.Initialize(context);
 }
 
 app.UseHttpsRedirection();

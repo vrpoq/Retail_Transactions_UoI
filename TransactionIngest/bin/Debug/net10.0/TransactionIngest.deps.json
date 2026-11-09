@@ -11,7 +11,8 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "10.0.14",
           "Microsoft.EntityFrameworkCore.Design": "10.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.14",
-          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.14"
+          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.14",
+          "Newtonsoft.Json": "13.0.4"
         },
         "runtime": {
           "TransactionIngest.dll": {}
