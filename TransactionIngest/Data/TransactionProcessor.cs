@@ -24,9 +24,9 @@ namespace TransactionIngest.Data
             return transactions;
         }
 
-        public void PostTransactions()
+        public static List<Transaction> PostTransactions(TransactionContext context)
         {
-            
+            return context.Transactions.ToList();
         }
 
         public static void SaveToDB(TransactionContext context){

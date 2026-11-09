@@ -19,11 +19,11 @@ namespace TransactionIngest.Pages.Transactions
             _context = context;
         }
 
-        public IList<Transaction> Transaction { get;set; } = default!;
+        public List<Transaction> Transaction { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            Transaction = await _context.Transactions.ToListAsync();
+            Transaction = TransactionProcessor.PostTransactions(_context);
         }
     }
 }
