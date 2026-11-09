@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TransactionIngest.Models;
 
@@ -55,12 +56,63 @@ namespace TransactionIngest.Data
             return returnList;
         }
 
-        public static void SaveToDB(TransactionContext context){
+        public static void parseImport(TransactionContext context, List<Transaction> hourlyTransactions)
+        {
             Console.WriteLine(logSeparator);
-            Console.WriteLine("SaveToDB start at " + DateTime.Now);
+            Console.WriteLine("parseImport start at " + DateTime.Now);
             Console.WriteLine(logSeparator);
 
-            List<Transaction> hourlyTransactions = GetTransactions("hour_1_sample.json"); // hardcoding to test
+            List<Transaction> insertTransactions = new List<Transaction>();
+            List<Transaction> updateTransactions = new List<Transaction>();
+
+            // most transactions in hourlyTransactions are going to be inserts
+            // however, need to check each incoming transaction to see if its primary key matches an existing transaction within the last 24 hours (1 day)
+            //      want to update matching transactions & insert the rest
+
+            foreach (Transaction transaction in hourlyTransactions){
+                // modelBuilder.Entity<Transaction>().ToTable("Transaction").HasKey(c => new { c.SourceSystem, c.TransactionId });
+                DateTime startRange = transaction.TransactionTime.AddDays(-1); // works great
+                string uniqueID = transaction.SourceSystem + transaction.TransactionId.ToString();
+
+                // find any transactions within the last 24 hours which need to be updated (have matching primary key)
+                updateTransactions = context.Transactions.Where(transaction => (transaction.TransactionTime >= startRange && (transaction.SourceSystem + transaction.TransactionId.ToString() == uniqueID))).ToList();
+                //  TODO consider adding RevisionNumber to data model to indicate how many times a transaction has been updated
+
+                if (updateTransactions.Count == 0) {
+                    insertTransactions.Add(transaction); // works great
+                }
+                else
+                {
+                    // expecting to see ID 100001 from Store Uptown - buying an H Phone instead of a flip phone
+                    //  yep!
+                    foreach (Transaction trans in updateTransactions) // should be just one if matching primary key
+                    {
+
+                        // TODO handle update
+
+                        //Console.WriteLine(transaction.CardNumber);
+                        //Console.WriteLine(transaction.LocationCode);
+                        //Console.WriteLine(transaction.ProductName);
+                        //Console.WriteLine(transaction.Amount);
+                        //Console.WriteLine(transaction.TransactionTime);
+
+                        //Console.WriteLine(logSeparator);
+                        //Console.WriteLine(trans.SourceSystem + ", " + trans.TransactionId);
+                        //Console.WriteLine(logSeparator);
+                    }
+                }
+
+                // TODO update sample data to include updated transactions
+                //      first transaction might have incorrect product name & amount, for example - user misclicked, perhaps
+                // should be
+                //      20% updates
+                //      10% revokes
+                //          include revoke to insert & revoke to prev. update
+                //      70% inserts
+            }
+
+            // after processing & editing insertTransactions, set to insert into DB with AddRange
+            context.Transactions.AddRange(insertTransactions);
 
             // works great!
             /*
@@ -76,8 +128,23 @@ namespace TransactionIngest.Data
             }
             */
 
-            context.Transactions.AddRange(hourlyTransactions);
-            context.SaveChanges();
+            Console.WriteLine(logSeparator);
+            Console.WriteLine("parseImport end at " + DateTime.Now);
+            Console.WriteLine(logSeparator);
+        }
+
+        public static void SaveToDB(TransactionContext context)
+        {
+            Console.WriteLine(logSeparator);
+            Console.WriteLine("SaveToDB start at " + DateTime.Now);
+            Console.WriteLine(logSeparator);
+
+            List<Transaction> hourlyTransactions = GetTransactions("hour_2_sample.json"); // hardcoding to test
+            
+            parseImport(context, hourlyTransactions);
+
+            //context.Transactions.AddRange(hourlyTransactions);
+            context.SaveChanges(); // insert into DB
 
             Console.WriteLine(logSeparator);
             Console.WriteLine("SaveToDB end at " + DateTime.Now);
