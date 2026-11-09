@@ -39,8 +39,14 @@ namespace TransactionIngest.Data
             Console.WriteLine("PostTransactions start at " + DateTime.Now);
             Console.WriteLine(logSeparator);
 
+            var builder = WebApplication.CreateBuilder();
             List<Transaction> returnList = new List<Transaction>();
-            returnList = context.Transactions.ToList();
+            int displayLimit = 0;
+
+            // TODO add error handling for if RecordDisplayLimit is not in config file
+            displayLimit = builder.Configuration.GetValue<int>("RecordDisplayLimit");
+            // if displayLimit is larger than number of items in list, Take just grabs all items in list; if displayLimit is negative, Take grabs 0 items in list
+            returnList = (List<Transaction>)context.Transactions.ToList().Take(displayLimit).ToList(); // throws error if not cast to list again
 
             Console.WriteLine(logSeparator);
             Console.WriteLine("PostTransactions end at " + DateTime.Now);
@@ -72,7 +78,7 @@ namespace TransactionIngest.Data
 
             context.Transactions.AddRange(hourlyTransactions);
             context.SaveChanges();
-            
+
             Console.WriteLine(logSeparator);
             Console.WriteLine("SaveToDB end at " + DateTime.Now);
             Console.WriteLine(logSeparator);
