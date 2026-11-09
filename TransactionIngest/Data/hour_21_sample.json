@@ -1,0 +1,272 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100200,
+ "cardNumber": "***7670",
+ "locationCode": "UPTOWN",
+ "productName": "U Phone Charger",
+ "amount": 30.21,
+ "transactionTime": "2026-02-28T04:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100201,
+ "cardNumber": "***3603",
+ "locationCode": "UPTOWN",
+ "productName": "V Phone Charger",
+ "amount": 30.22,
+ "transactionTime": "2026-02-28T04:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100202,
+ "cardNumber": "***8917",
+ "locationCode": "UPTOWN",
+ "productName": "W Phone Charger",
+ "amount": 30.23,
+ "transactionTime": "2026-02-28T04:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100203,
+ "cardNumber": "***1553",
+ "locationCode": "UPTOWN",
+ "productName": "X Phone Charger",
+ "amount": 30.24,
+ "transactionTime": "2026-02-28T04:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100204,
+ "cardNumber": "***5771",
+ "locationCode": "UPTOWN",
+ "productName": "Y Phone Charger",
+ "amount": 30.25,
+ "transactionTime": "2026-02-28T04:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100205,
+ "cardNumber": "***5867",
+ "locationCode": "UPTOWN",
+ "productName": "Z Phone Charger",
+ "amount": 30.26,
+ "transactionTime": "2026-02-28T04:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100206,
+ "cardNumber": "***8601",
+ "locationCode": "UPTOWN",
+ "productName": "B Earbuds",
+ "amount": 40.02,
+ "transactionTime": "2026-02-28T04:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100207,
+ "cardNumber": "***2414",
+ "locationCode": "UPTOWN",
+ "productName": "C Earbuds",
+ "amount": 40.03,
+ "transactionTime": "2026-02-28T04:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100208,
+ "cardNumber": "***1889",
+ "locationCode": "UPTOWN",
+ "productName": "D Earbuds",
+ "amount": 40.04,
+ "transactionTime": "2026-02-28T04:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100209,
+ "cardNumber": "***1474",
+ "locationCode": "UPTOWN",
+ "productName": "E Earbuds",
+ "amount": 40.05,
+ "transactionTime": "2026-02-28T04:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100200,
+ "cardNumber": "***7670",
+ "locationCode": "DOWNTOWN",
+ "productName": "U Phone Charger",
+ "amount": 30.21,
+ "transactionTime": "2026-02-28T04:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100201,
+ "cardNumber": "***3603",
+ "locationCode": "DOWNTOWN",
+ "productName": "V Phone Charger",
+ "amount": 30.22,
+ "transactionTime": "2026-02-28T04:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100202,
+ "cardNumber": "***8917",
+ "locationCode": "DOWNTOWN",
+ "productName": "W Phone Charger",
+ "amount": 30.23,
+ "transactionTime": "2026-02-28T04:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100203,
+ "cardNumber": "***1553",
+ "locationCode": "DOWNTOWN",
+ "productName": "X Phone Charger",
+ "amount": 30.24,
+ "transactionTime": "2026-02-28T04:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100204,
+ "cardNumber": "***5771",
+ "locationCode": "DOWNTOWN",
+ "productName": "Y Phone Charger",
+ "amount": 30.25,
+ "transactionTime": "2026-02-28T04:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100205,
+ "cardNumber": "***5867",
+ "locationCode": "DOWNTOWN",
+ "productName": "Z Phone Charger",
+ "amount": 30.26,
+ "transactionTime": "2026-02-28T04:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100206,
+ "cardNumber": "***8601",
+ "locationCode": "DOWNTOWN",
+ "productName": "B Earbuds",
+ "amount": 40.02,
+ "transactionTime": "2026-02-28T04:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100207,
+ "cardNumber": "***2414",
+ "locationCode": "DOWNTOWN",
+ "productName": "C Earbuds",
+ "amount": 40.03,
+ "transactionTime": "2026-02-28T04:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100208,
+ "cardNumber": "***1889",
+ "locationCode": "DOWNTOWN",
+ "productName": "D Earbuds",
+ "amount": 40.04,
+ "transactionTime": "2026-02-28T04:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100209,
+ "cardNumber": "***1474",
+ "locationCode": "DOWNTOWN",
+ "productName": "E Earbuds",
+ "amount": 40.05,
+ "transactionTime": "2026-02-28T04:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100200,
+ "cardNumber": "***7670",
+ "locationCode": "ONLINE",
+ "productName": "U Phone Charger",
+ "amount": 30.21,
+ "transactionTime": "2026-02-28T04:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100201,
+ "cardNumber": "***3603",
+ "locationCode": "ONLINE",
+ "productName": "V Phone Charger",
+ "amount": 30.22,
+ "transactionTime": "2026-02-28T04:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100202,
+ "cardNumber": "***8917",
+ "locationCode": "ONLINE",
+ "productName": "W Phone Charger",
+ "amount": 30.23,
+ "transactionTime": "2026-02-28T04:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100203,
+ "cardNumber": "***1553",
+ "locationCode": "ONLINE",
+ "productName": "X Phone Charger",
+ "amount": 30.24,
+ "transactionTime": "2026-02-28T04:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100204,
+ "cardNumber": "***5771",
+ "locationCode": "ONLINE",
+ "productName": "Y Phone Charger",
+ "amount": 30.25,
+ "transactionTime": "2026-02-28T04:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100205,
+ "cardNumber": "***5867",
+ "locationCode": "ONLINE",
+ "productName": "Z Phone Charger",
+ "amount": 30.26,
+ "transactionTime": "2026-02-28T04:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100206,
+ "cardNumber": "***8601",
+ "locationCode": "ONLINE",
+ "productName": "B Earbuds",
+ "amount": 40.02,
+ "transactionTime": "2026-02-28T04:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100207,
+ "cardNumber": "***2414",
+ "locationCode": "ONLINE",
+ "productName": "C Earbuds",
+ "amount": 40.03,
+ "transactionTime": "2026-02-28T04:42:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100208,
+ "cardNumber": "***1889",
+ "locationCode": "ONLINE",
+ "productName": "D Earbuds",
+ "amount": 40.04,
+ "transactionTime": "2026-02-28T04:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100209,
+ "cardNumber": "***1474",
+ "locationCode": "ONLINE",
+ "productName": "E Earbuds",
+ "amount": 40.05,
+ "transactionTime": "2026-02-28T04:54:30Z"
+ }
+]

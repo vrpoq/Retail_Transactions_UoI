@@ -1,13 +1,4 @@
 [
-{ 
-    "TODO": "Continue from ID 100129",
-    "Flip Phone": "45.00",
-    "B-Z Phone": "50.02 - 50.26",
-    "B-Z Phone Case": "20.02 - 20.26",
-    "B-Z Phone Charger": "30.02 - 30.26",
-    "B-Z Earbuds": "40.02 -40.26",
-    "B-Z Tablet": "60.02 -60.26"
-},
 {
  "sourceSystem": "Store Uptown",
  "transactionId": 100001,
@@ -410,7 +401,7 @@
  "cardNumber": "***2436",
  "locationCode": "UPTOWN",
  "productName": "R Phone Case",
- "amount": 20.18
+ "amount": 20.18,
  "transactionTime": "2026-02-27T12:30:30Z"
  },
  {
@@ -1166,7 +1157,7 @@
  "cardNumber": "***6236",
  "locationCode": "UPTOWN",
  "productName": "B Phone",
- "amount": 00.00,
+ "amount": 50.02,
  "transactionTime": "2026-02-27T20:54:30Z"
  },
  {
@@ -1175,7 +1166,7 @@
  "cardNumber": "***4925",
  "locationCode": "UPTOWN",
  "productName": "C Phone",
- "amount": 00.00,
+ "amount": 50.03,
  "transactionTime": "2026-02-27T21:00:30Z"
  },
  {
@@ -1184,7 +1175,7 @@
  "cardNumber": "***3914",
  "locationCode": "UPTOWN",
  "productName": "D Phone",
- "amount": 00.00,
+ "amount": 50.04,
  "transactionTime": "2026-02-27T21:06:30Z"
  },
  {
@@ -1193,7 +1184,7 @@
  "cardNumber": "***5257",
  "locationCode": "UPTOWN",
  "productName": "E Phone",
- "amount": 00.00,
+ "amount": 50.05,
  "transactionTime": "2026-02-27T21:12:30Z"
  },
  {
@@ -1202,7 +1193,7 @@
  "cardNumber": "***0253",
  "locationCode": "UPTOWN",
  "productName": "F Phone",
- "amount": 00.00,
+ "amount": 50.06,
  "transactionTime": "2026-02-27T21:18:30Z"
  },
  {
@@ -1211,7 +1202,7 @@
  "cardNumber": "***3198",
  "locationCode": "UPTOWN",
  "productName": "G Phone",
- "amount": 00.00,
+ "amount": 50.07,
  "transactionTime": "2026-02-27T21:24:30Z"
  },
  {
@@ -1220,7 +1211,7 @@
  "cardNumber": "***1295",
  "locationCode": "UPTOWN",
  "productName": "H Phone",
- "amount": 00.00,
+ "amount": 50.08,
  "transactionTime": "2026-02-27T21:30:30Z"
  },
  {
@@ -1229,7 +1220,7 @@
  "cardNumber": "***5880",
  "locationCode": "UPTOWN",
  "productName": "I Phone",
- "amount": 00.00,
+ "amount": 50.09,
  "transactionTime": "2026-02-27T21:36:30Z"
  },
  {
@@ -1238,7 +1229,7 @@
  "cardNumber": "***1481",
  "locationCode": "UPTOWN",
  "productName": "J Phone",
- "amount": 00.00,
+ "amount": 50.10,
  "transactionTime": "2026-02-27T21:42:30Z"
  },
  {
@@ -1247,7 +1238,7 @@
  "cardNumber": "***5197",
  "locationCode": "UPTOWN",
  "productName": "K Phone",
- "amount": 00.00,
+ "amount": 50.11,
  "transactionTime": "2026-02-27T21:48:30Z"
  },
  {
@@ -1256,7 +1247,7 @@
  "cardNumber": "***6024",
  "locationCode": "UPTOWN",
  "productName": "L Phone",
- "amount": 00.00,
+ "amount": 50.12,
  "transactionTime": "2026-02-27T21:54:30Z"
  },
  {
@@ -1265,7 +1256,7 @@
  "cardNumber": "***2791",
  "locationCode": "UPTOWN",
  "productName": "M Phone",
- "amount": 00.00,
+ "amount": 50.13,
  "transactionTime": "2026-02-27T22:00:30Z"
  },
  {
@@ -1274,7 +1265,7 @@
  "cardNumber": "***2189",
  "locationCode": "UPTOWN",
  "productName": "N Phone",
- "amount": 00.00,
+ "amount": 50.14,
  "transactionTime": "2026-02-27T22:06:30Z"
  },
  {
@@ -1283,7 +1274,7 @@
  "cardNumber": "***0637",
  "locationCode": "UPTOWN",
  "productName": "O Phone",
- "amount": 00.00,
+ "amount": 50.15,
  "transactionTime": "2026-02-27T22:12:30Z"
  },
  {
@@ -1292,7 +1283,7 @@
  "cardNumber": "***8879",
  "locationCode": "UPTOWN",
  "productName": "P Phone",
- "amount": 00.00,
+ "amount": 50.16,
  "transactionTime": "2026-02-27T22:18:30Z"
  },
  {
@@ -1301,7 +1292,7 @@
  "cardNumber": "***0502",
  "locationCode": "UPTOWN",
  "productName": "Q Phone",
- "amount": 00.00,
+ "amount": 50.17,
  "transactionTime": "2026-02-27T22:24:30Z"
  },
  {
@@ -1310,7 +1301,7 @@
  "cardNumber": "***2187",
  "locationCode": "UPTOWN",
  "productName": "R Phone",
- "amount": 00.00,
+ "amount": 50.18,
  "transactionTime": "2026-02-27T22:30:30Z"
  },
  {
@@ -1319,7 +1310,7 @@
  "cardNumber": "***0640",
  "locationCode": "UPTOWN",
  "productName": "S Phone",
- "amount": 00.00,
+ "amount": 50.19,
  "transactionTime": "2026-02-27T22:36:30Z"
  },
  {
@@ -1328,7 +1319,7 @@
  "cardNumber": "***3417",
  "locationCode": "UPTOWN",
  "productName": "T Phone",
- "amount": 00.00,
+ "amount": 50.20,
  "transactionTime": "2026-02-27T22:42:30Z"
  },
  {
@@ -1337,7 +1328,7 @@
  "cardNumber": "***0973",
  "locationCode": "UPTOWN",
  "productName": "U Phone",
- "amount": 00.00,
+ "amount": 50.21,
  "transactionTime": "2026-02-27T22:48:30Z"
  },
  {
@@ -1346,7 +1337,7 @@
  "cardNumber": "***4722",
  "locationCode": "UPTOWN",
  "productName": "V Phone",
- "amount": 00.00,
+ "amount": 50.22,
  "transactionTime": "2026-02-27T22:54:30Z"
  },
  {
@@ -1355,7 +1346,7 @@
  "cardNumber": "***8415",
  "locationCode": "UPTOWN",
  "productName": "W Phone",
- "amount": 00.00,
+ "amount": 50.23,
  "transactionTime": "2026-02-27T23:00:30Z"
  },
  {
@@ -1364,7 +1355,7 @@
  "cardNumber": "***1463",
  "locationCode": "UPTOWN",
  "productName": "X Phone",
- "amount": 00.00,
+ "amount": 50.24,
  "transactionTime": "2026-02-27T23:06:30Z"
  },
  {
@@ -1373,7 +1364,7 @@
  "cardNumber": "***9142",
  "locationCode": "UPTOWN",
  "productName": "Y Phone",
- "amount": 00.00,
+ "amount": 50.25,
  "transactionTime": "2026-02-27T23:12:30Z"
  },
  {
@@ -1382,7 +1373,7 @@
  "cardNumber": "***9291",
  "locationCode": "UPTOWN",
  "productName": "Z Phone",
- "amount": 00.00,
+ "amount": 50.26,
  "transactionTime": "2026-02-27T23:18:30Z"
  },
  {
@@ -1391,7 +1382,7 @@
  "cardNumber": "***5845",
  "locationCode": "UPTOWN",
  "productName": "B Phone Case",
- "amount": 00.00,
+ "amount": 20.02,
  "transactionTime": "2026-02-27T23:24:30Z"
  },
  {
@@ -1400,7 +1391,7 @@
  "cardNumber": "***9445",
  "locationCode": "UPTOWN",
  "productName": "C Phone Case",
- "amount": 00.00,
+ "amount": 20.03,
  "transactionTime": "2026-02-27T23:30:30Z"
  },
  {
@@ -1409,7 +1400,7 @@
  "cardNumber": "***8538",
  "locationCode": "UPTOWN",
  "productName": "D Phone Case",
- "amount": 00.00,
+ "amount": 20.04,
  "transactionTime": "2026-02-27T23:36:30Z"
  },
  {
@@ -1418,7 +1409,7 @@
  "cardNumber": "***2626",
  "locationCode": "UPTOWN",
  "productName": "E Phone Case",
- "amount": 00.00,
+ "amount": 20.05,
  "transactionTime": "2026-02-27T23:42:30Z"
  },
  {
@@ -1427,7 +1418,7 @@
  "cardNumber": "***1275",
  "locationCode": "UPTOWN",
  "productName": "F Phone Case",
- "amount": 00.00,
+ "amount": 20.06,
  "transactionTime": "2026-02-27T23:48:30Z"
  },
  {
@@ -1436,7 +1427,7 @@
  "cardNumber": "***4674",
  "locationCode": "UPTOWN",
  "productName": "G Phone Case",
- "amount": 00.00,
+ "amount": 20.07,
  "transactionTime": "2026-02-27T23:54:30Z"
  },
  {
@@ -1445,7 +1436,7 @@
  "cardNumber": "***2030",
  "locationCode": "UPTOWN",
  "productName": "H Phone Case",
- "amount": 00.00,
+ "amount": 20.08,
  "transactionTime": "2026-02-28T00:00:30Z"
  },
  {
@@ -1454,7 +1445,7 @@
  "cardNumber": "***2728",
  "locationCode": "UPTOWN",
  "productName": "G Phone Case",
- "amount": 00.00,
+ "amount": 20.07,
  "transactionTime": "2026-02-28T00:06:30Z"
  },
  {
@@ -1463,7 +1454,7 @@
  "cardNumber": "***0532",
  "locationCode": "UPTOWN",
  "productName": "H Phone Case",
- "amount": 00.00,
+ "amount": 20.08,
  "transactionTime": "2026-02-28T00:12:30Z"
  },
  {
@@ -1472,7 +1463,7 @@
  "cardNumber": "***5408",
  "locationCode": "UPTOWN",
  "productName": "I Phone Case",
- "amount": 00.00,
+ "amount": 20.09,
  "transactionTime": "2026-02-28T00:18:30Z"
  },
  {
@@ -1481,7 +1472,7 @@
  "cardNumber": "***4373",
  "locationCode": "UPTOWN",
  "productName": "J Phone Case",
- "amount": 00.00,
+ "amount": 20.10,
  "transactionTime": "2026-02-28T00:24:30Z"
  },
  {
@@ -1490,7 +1481,7 @@
  "cardNumber": "***2523",
  "locationCode": "UPTOWN",
  "productName": "K Phone Case",
- "amount": 00.00,
+ "amount": 20.11,
  "transactionTime": "2026-02-28T00:30:30Z"
  },
  {
@@ -1499,7 +1490,7 @@
  "cardNumber": "***2114",
  "locationCode": "UPTOWN",
  "productName": "L Phone Case",
- "amount": 00.00,
+ "amount": 20.12,
  "transactionTime": "2026-02-28T00:36:30Z"
  },
  {
@@ -1508,7 +1499,7 @@
  "cardNumber": "***8759",
  "locationCode": "UPTOWN",
  "productName": "M Phone Case",
- "amount": 00.00,
+ "amount": 20.13,
  "transactionTime": "2026-02-28T00:42:30Z"
  },
  {
@@ -1517,7 +1508,7 @@
  "cardNumber": "***1931",
  "locationCode": "UPTOWN",
  "productName": "N Phone Case",
- "amount": 00.00,
+ "amount": 20.14,
  "transactionTime": "2026-02-28T00:48:30Z"
  },
  {
@@ -1526,7 +1517,7 @@
  "cardNumber": "***4652",
  "locationCode": "UPTOWN",
  "productName": "O Phone Case",
- "amount": 00.00,
+ "amount": 20.15,
  "transactionTime": "2026-02-28T00:54:30Z"
  },
  {
@@ -1535,7 +1526,7 @@
  "cardNumber": "***5802",
  "locationCode": "UPTOWN",
  "productName": "P Phone Case",
- "amount": 00.00,
+ "amount": 20.16,
  "transactionTime": "2026-02-28T01:00:30Z"
  },
  {
@@ -1544,7 +1535,7 @@
  "cardNumber": "***6879",
  "locationCode": "UPTOWN",
  "productName": "Q Phone Case",
- "amount": 00.00,
+ "amount": 20.17,
  "transactionTime": "2026-02-28T01:06:30Z"
  },
  {
@@ -1553,7 +1544,7 @@
  "cardNumber": "***6543",
  "locationCode": "UPTOWN",
  "productName": "R Phone Case",
- "amount": 00.00,
+ "amount": 20.18,
  "transactionTime": "2026-02-28T01:12:30Z"
  },
  {
@@ -1562,7 +1553,7 @@
  "cardNumber": "***3924",
  "locationCode": "UPTOWN",
  "productName": "S Phone Case",
- "amount": 00.00,
+ "amount": 20.19,
  "transactionTime": "2026-02-28T01:18:30Z"
  },
  {
@@ -1571,7 +1562,7 @@
  "cardNumber": "***6951",
  "locationCode": "UPTOWN",
  "productName": "T Phone Case",
- "amount": 00.00,
+ "amount": 20.20,
  "transactionTime": "2026-02-28T01:24:30Z"
  },
  {
@@ -1580,7 +1571,7 @@
  "cardNumber": "***4469",
  "locationCode": "UPTOWN",
  "productName": "U Phone Case",
- "amount": 00.00,
+ "amount": 20.21,
  "transactionTime": "2026-02-28T01:30:30Z"
  },
  {
@@ -1589,7 +1580,7 @@
  "cardNumber": "***6443",
  "locationCode": "UPTOWN",
  "productName": "V Phone Case",
- "amount": 00.00,
+ "amount": 20.22,
  "transactionTime": "2026-02-28T01:36:30Z"
  },
  {
@@ -1598,7 +1589,7 @@
  "cardNumber": "***4402",
  "locationCode": "UPTOWN",
  "productName": "W Phone Case",
- "amount": 00.00,
+ "amount": 20.23,
  "transactionTime": "2026-02-28T01:42:30Z"
  },
  {
@@ -1607,7 +1598,7 @@
  "cardNumber": "***5035",
  "locationCode": "UPTOWN",
  "productName": "X Phone Case",
- "amount": 00.00,
+ "amount": 20.24,
  "transactionTime": "2026-02-28T01:48:30Z"
  },
  {
@@ -1616,7 +1607,7 @@
  "cardNumber": "***0697",
  "locationCode": "UPTOWN",
  "productName": "Y Phone Case",
- "amount": 00.00,
+ "amount": 20.25,
  "transactionTime": "2026-02-28T01:54:30Z"
  },
  {
@@ -1625,7 +1616,7 @@
  "cardNumber": "***5043",
  "locationCode": "UPTOWN",
  "productName": "Z Phone Case",
- "amount": 00.00,
+ "amount": 20.26,
  "transactionTime": "2026-02-28T02:00:30Z"
  },
  {
@@ -1634,7 +1625,7 @@
  "cardNumber": "***5106",
  "locationCode": "UPTOWN",
  "productName": "B Phone Charger",
- "amount": 00.00,
+ "amount": 30.02,
  "transactionTime": "2026-02-28T02:06:30Z"
  },
  {
@@ -1643,7 +1634,7 @@
  "cardNumber": "***3808",
  "locationCode": "UPTOWN",
  "productName": "C Phone Charger",
- "amount": 00.00,
+ "amount": 30.03,
  "transactionTime": "2026-02-28T02:12:30Z"
  },
  {
@@ -1652,7 +1643,7 @@
  "cardNumber": "***6766",
  "locationCode": "UPTOWN",
  "productName": "D Phone Charger",
- "amount": 00.00,
+ "amount": 30.04,
  "transactionTime": "2026-02-28T02:18:30Z"
  },
  {
@@ -1661,7 +1652,7 @@
  "cardNumber": "***5524",
  "locationCode": "UPTOWN",
  "productName": "E Phone Charger",
- "amount": 00.00,
+ "amount": 30.05,
  "transactionTime": "2026-02-28T02:24:30Z"
  },
  {
@@ -1670,7 +1661,7 @@
  "cardNumber": "***3459",
  "locationCode": "UPTOWN",
  "productName": "F Phone Charger",
- "amount": 00.00,
+ "amount": 30.06,
  "transactionTime": "2026-02-28T02:30:30Z"
  },
  {
@@ -1679,7 +1670,7 @@
  "cardNumber": "***3237",
  "locationCode": "UPTOWN",
  "productName": "G Phone Charger",
- "amount": 00.00,
+ "amount": 30.07,
  "transactionTime": "2026-02-28T02:36:30Z"
  },
  {
@@ -1688,7 +1679,7 @@
  "cardNumber": "***1429",
  "locationCode": "UPTOWN",
  "productName": "H Phone Charger",
- "amount": 00.00,
+ "amount": 30.08,
  "transactionTime": "2026-02-28T02:42:30Z"
  },
  {
@@ -1697,7 +1688,7 @@
  "cardNumber": "***6938",
  "locationCode": "UPTOWN",
  "productName": "I Phone Charger",
- "amount": 00.00,
+ "amount": 30.09,
  "transactionTime": "2026-02-28T02:48:30Z"
  },
  {
@@ -1706,7 +1697,7 @@
  "cardNumber": "***7998",
  "locationCode": "UPTOWN",
  "productName": "J Phone Charger",
- "amount": 00.00,
+ "amount": 30.10,
  "transactionTime": "2026-02-28T02:54:30Z"
  },
  {
@@ -1715,7 +1706,7 @@
  "cardNumber": "***4497",
  "locationCode": "UPTOWN",
  "productName": "K Phone Charger",
- "amount": 00.00,
+ "amount": 30.11,
  "transactionTime": "2026-02-28T03:00:30Z"
  },
  {
@@ -1724,7 +1715,7 @@
  "cardNumber": "***3802",
  "locationCode": "UPTOWN",
  "productName": "L Phone Charger",
- "amount": 00.00,
+ "amount": 30.12,
  "transactionTime": "2026-02-28T03:06:30Z"
  },
  {
@@ -1733,7 +1724,7 @@
  "cardNumber": "***6399",
  "locationCode": "UPTOWN",
  "productName": "M Phone Charger",
- "amount": 00.00,
+ "amount": 30.13,
  "transactionTime": "2026-02-28T03:12:30Z"
  },
  {
@@ -1742,7 +1733,7 @@
  "cardNumber": "***1269",
  "locationCode": "UPTOWN",
  "productName": "N Phone Charger",
- "amount": 00.00,
+ "amount": 30.14,
  "transactionTime": "2026-02-28T03:18:30Z"
  },
  {
@@ -1751,7 +1742,7 @@
  "cardNumber": "***3979",
  "locationCode": "UPTOWN",
  "productName": "O Phone Charger",
- "amount": 00.00,
+ "amount": 30.15,
  "transactionTime": "2026-02-28T03:24:30Z"
  },
  {
@@ -1760,7 +1751,7 @@
  "cardNumber": "***1022",
  "locationCode": "UPTOWN",
  "productName": "P Phone Charger",
- "amount": 00.00,
+ "amount": 30.16,
  "transactionTime": "2026-02-28T03:30:30Z"
  },
  {
@@ -1769,7 +1760,7 @@
  "cardNumber": "***6118",
  "locationCode": "UPTOWN",
  "productName": "Q Phone Charger",
- "amount": 00.00,
+ "amount": 30.17,
  "transactionTime": "2026-02-28T03:36:30Z"
  },
  {
@@ -1778,7 +1769,7 @@
  "cardNumber": "***5420",
  "locationCode": "UPTOWN",
  "productName": "R Phone Charger",
- "amount": 00.00,
+ "amount": 30.18,
  "transactionTime": "2026-02-28T03:42:30Z"
  },
  {
@@ -1787,7 +1778,7 @@
  "cardNumber": "***8792",
  "locationCode": "UPTOWN",
  "productName": "S Phone Charger",
- "amount": 00.00,
+ "amount": 30.19,
  "transactionTime": "2026-02-28T03:48:30Z"
  },
  {
@@ -1796,7 +1787,7 @@
  "cardNumber": "***1326",
  "locationCode": "UPTOWN",
  "productName": "T Phone Charger",
- "amount": 00.00,
+ "amount": 30.20,
  "transactionTime": "2026-02-28T03:54:30Z"
  },
  {
@@ -1805,7 +1796,7 @@
  "cardNumber": "***7670",
  "locationCode": "UPTOWN",
  "productName": "U Phone Charger",
- "amount": 00.00,
+ "amount": 30.21,
  "transactionTime": "2026-02-28T04:00:30Z"
  },
  {
@@ -1814,7 +1805,7 @@
  "cardNumber": "***3603",
  "locationCode": "UPTOWN",
  "productName": "V Phone Charger",
- "amount": 00.00,
+ "amount": 30.22,
  "transactionTime": "2026-02-28T04:06:30Z"
  },
  {
@@ -1823,7 +1814,7 @@
  "cardNumber": "***8917",
  "locationCode": "UPTOWN",
  "productName": "W Phone Charger",
- "amount": 00.00,
+ "amount": 30.23,
  "transactionTime": "2026-02-28T04:12:30Z"
  },
  {
@@ -1832,7 +1823,7 @@
  "cardNumber": "***1553",
  "locationCode": "UPTOWN",
  "productName": "X Phone Charger",
- "amount": 00.00,
+ "amount": 30.24,
  "transactionTime": "2026-02-28T04:18:30Z"
  },
  {
@@ -1841,7 +1832,7 @@
  "cardNumber": "***5771",
  "locationCode": "UPTOWN",
  "productName": "Y Phone Charger",
- "amount": 00.00,
+ "amount": 30.25,
  "transactionTime": "2026-02-28T04:24:30Z"
  },
  {
@@ -1850,7 +1841,7 @@
  "cardNumber": "***5867",
  "locationCode": "UPTOWN",
  "productName": "Z Phone Charger",
- "amount": 00.00,
+ "amount": 30.26,
  "transactionTime": "2026-02-28T04:30:30Z"
  },
  {
@@ -1859,7 +1850,7 @@
  "cardNumber": "***8601",
  "locationCode": "UPTOWN",
  "productName": "B Earbuds",
- "amount": 00.00,
+ "amount": 40.02,
  "transactionTime": "2026-02-28T04:36:30Z"
  },
  {
@@ -1868,7 +1859,7 @@
  "cardNumber": "***2414",
  "locationCode": "UPTOWN",
  "productName": "C Earbuds",
- "amount": 00.00,
+ "amount": 40.03,
  "transactionTime": "2026-02-28T04:42:30Z"
  },
  {
@@ -1877,7 +1868,7 @@
  "cardNumber": "***1889",
  "locationCode": "UPTOWN",
  "productName": "D Earbuds",
- "amount": 00.00,
+ "amount": 40.04,
  "transactionTime": "2026-02-28T04:48:30Z"
  },
  {
@@ -1886,7 +1877,7 @@
  "cardNumber": "***1474",
  "locationCode": "UPTOWN",
  "productName": "E Earbuds",
- "amount": 00.00,
+ "amount": 40.05,
  "transactionTime": "2026-02-28T04:54:30Z"
  },
  {
@@ -1895,7 +1886,7 @@
  "cardNumber": "***5030",
  "locationCode": "UPTOWN",
  "productName": "F Earbuds",
- "amount": 00.00,
+ "amount": 40.06,
  "transactionTime": "2026-02-28T05:00:30Z"
  },
  {
@@ -1904,7 +1895,7 @@
  "cardNumber": "***0387",
  "locationCode": "UPTOWN",
  "productName": "G Earbuds",
- "amount": 00.00,
+ "amount": 40.07,
  "transactionTime": "2026-02-28T05:06:30Z"
  },
  {
@@ -1913,7 +1904,7 @@
  "cardNumber": "***2349",
  "locationCode": "UPTOWN",
  "productName": "H Earbuds",
- "amount": 00.00,
+ "amount": 40.08,
  "transactionTime": "2026-02-28T05:12:30Z"
  },
  {
@@ -1922,7 +1913,7 @@
  "cardNumber": "***5493",
  "locationCode": "UPTOWN",
  "productName": "I Earbuds",
- "amount": 00.00,
+ "amount": 40.09,
  "transactionTime": "2026-02-28T05:18:30Z"
  },
  {
@@ -1931,7 +1922,7 @@
  "cardNumber": "***2548",
  "locationCode": "UPTOWN",
  "productName": "J Earbuds",
- "amount": 00.00,
+ "amount": 40.10,
  "transactionTime": "2026-02-28T05:24:30Z"
  },
  {
@@ -1940,7 +1931,7 @@
  "cardNumber": "***3654",
  "locationCode": "UPTOWN",
  "productName": "K Earbuds",
- "amount": 00.00,
+ "amount": 40.11,
  "transactionTime": "2026-02-28T05:30:30Z"
  },
  {
@@ -1949,7 +1940,7 @@
  "cardNumber": "***7125",
  "locationCode": "UPTOWN",
  "productName": "L Earbuds",
- "amount": 00.00,
+ "amount": 40.12,
  "transactionTime": "2026-02-28T05:36:30Z"
  },
  {
@@ -1958,7 +1949,7 @@
  "cardNumber": "***6348",
  "locationCode": "UPTOWN",
  "productName": "M Earbuds",
- "amount": 00.00,
+ "amount": 40.13,
  "transactionTime": "2026-02-28T05:42:30Z"
  },
  {
@@ -1967,7 +1958,7 @@
  "cardNumber": "***8315",
  "locationCode": "UPTOWN",
  "productName": "N Earbuds",
- "amount": 00.00,
+ "amount": 40.14,
  "transactionTime": "2026-02-28T05:48:30Z"
  },
  {
@@ -1976,7 +1967,7 @@
  "cardNumber": "***8016",
  "locationCode": "UPTOWN",
  "productName": "O Earbuds",
- "amount": 00.00,
+ "amount": 40.15,
  "transactionTime": "2026-02-28T05:54:30Z"
  },
  {
@@ -1985,7 +1976,7 @@
  "cardNumber": "***6756",
  "locationCode": "UPTOWN",
  "productName": "P Earbuds",
- "amount": 00.00,
+ "amount": 40.16,
  "transactionTime": "2026-02-28T06:00:30Z"
  },
  {
@@ -1994,7 +1985,7 @@
  "cardNumber": "***0405",
  "locationCode": "UPTOWN",
  "productName": "Q Earbuds",
- "amount": 00.00,
+ "amount": 40.17,
  "transactionTime": "2026-02-28T06:06:30Z"
  },
  {
@@ -2003,7 +1994,7 @@
  "cardNumber": "***0797",
  "locationCode": "UPTOWN",
  "productName": "R Earbuds",
- "amount": 00.00,
+ "amount": 40.18,
  "transactionTime": "2026-02-28T06:12:30Z"
  },
  {
@@ -2012,7 +2003,7 @@
  "cardNumber": "***3278",
  "locationCode": "UPTOWN",
  "productName": "S Earbuds",
- "amount": 00.00,
+ "amount": 40.19,
  "transactionTime": "2026-02-28T06:18:30Z"
  },
  {
@@ -2021,7 +2012,7 @@
  "cardNumber": "***8211",
  "locationCode": "UPTOWN",
  "productName": "T Earbuds",
- "amount": 00.00,
+ "amount": 40.20,
  "transactionTime": "2026-02-28T06:24:30Z"
  },
  {
@@ -2030,7 +2021,7 @@
  "cardNumber": "***7268",
  "locationCode": "UPTOWN",
  "productName": "U Earbuds",
- "amount": 00.00,
+ "amount": 40.21,
  "transactionTime": "2026-02-28T06:30:30Z"
  },
  {
@@ -2039,7 +2030,7 @@
  "cardNumber": "***0467",
  "locationCode": "UPTOWN",
  "productName": "V Earbuds",
- "amount": 00.00,
+ "amount": 40.22,
  "transactionTime": "2026-02-28T06:36:30Z"
  },
  {
@@ -2048,7 +2039,7 @@
  "cardNumber": "***2013",
  "locationCode": "UPTOWN",
  "productName": "W Earbuds",
- "amount": 00.00,
+ "amount": 40.23,
  "transactionTime": "2026-02-28T06:42:30Z"
  },
  {
@@ -2057,7 +2048,7 @@
  "cardNumber": "***2660",
  "locationCode": "UPTOWN",
  "productName": "X Earbuds",
- "amount": 00.00,
+ "amount": 40.24,
  "transactionTime": "2026-02-28T06:48:30Z"
  },
  {
@@ -2066,7 +2057,7 @@
  "cardNumber": "***3835",
  "locationCode": "UPTOWN",
  "productName": "Y Earbuds",
- "amount": 00.00,
+ "amount": 40.25,
  "transactionTime": "2026-02-28T06:54:30Z"
  },
  {
@@ -2075,7 +2066,7 @@
  "cardNumber": "***5867",
  "locationCode": "UPTOWN",
  "productName": "Z Earbuds",
- "amount": 00.00,
+ "amount": 40.26,
  "transactionTime": "2026-02-28T07:00:30Z"
  },
  {
@@ -2084,7 +2075,7 @@
  "cardNumber": "***6616",
  "locationCode": "UPTOWN",
  "productName": "B Tablet",
- "amount": 00.00,
+ "amount": 60.02,
  "transactionTime": "2026-02-28T07:06:30Z"
  },
  {
@@ -2093,7 +2084,7 @@
  "cardNumber": "***0706",
  "locationCode": "UPTOWN",
  "productName": "C Tablet",
- "amount": 00.00,
+ "amount": 60.03,
  "transactionTime": "2026-02-28T07:12:30Z"
  },
  {
@@ -2102,7 +2093,7 @@
  "cardNumber": "***5997",
  "locationCode": "UPTOWN",
  "productName": "D Tablet",
- "amount": 00.00,
+ "amount": 60.04,
  "transactionTime": "2026-02-28T07:18:30Z"
  },
  {
@@ -2111,7 +2102,7 @@
  "cardNumber": "***8449",
  "locationCode": "UPTOWN",
  "productName": "E Tablet",
- "amount": 00.00,
+ "amount": 60.05,
  "transactionTime": "2026-02-28T07:24:30Z"
  },
  {
@@ -2120,7 +2111,7 @@
  "cardNumber": "***1901",
  "locationCode": "UPTOWN",
  "productName": "F Tablet",
- "amount": 00.00,
+ "amount": 60.06,
  "transactionTime": "2026-02-28T07:30:30Z"
  },
  {
@@ -2129,7 +2120,7 @@
  "cardNumber": "***0036",
  "locationCode": "UPTOWN",
  "productName": "G Tablet",
- "amount": 00.00,
+ "amount": 60.07,
  "transactionTime": "2026-02-28T07:36:30Z"
  },
  {
@@ -2138,7 +2129,7 @@
  "cardNumber": "***8046",
  "locationCode": "UPTOWN",
  "productName": "H Tablet",
- "amount": 00.00,
+ "amount": 60.08,
  "transactionTime": "2026-02-28T07:42:30Z"
  },
  {
@@ -2147,7 +2138,7 @@
  "cardNumber": "***3091",
  "locationCode": "UPTOWN",
  "productName": "I Tablet",
- "amount": 00.00,
+ "amount": 60.09,
  "transactionTime": "2026-02-28T07:48:30Z"
  },
  {
@@ -2156,7 +2147,7 @@
  "cardNumber": "***2537",
  "locationCode": "UPTOWN",
  "productName": "J Tablet",
- "amount": 00.00,
+ "amount": 60.10,
  "transactionTime": "2026-02-28T07:54:30Z"
  },
  {
@@ -2165,7 +2156,7 @@
  "cardNumber": "***3005",
  "locationCode": "UPTOWN",
  "productName": "K Tablet",
- "amount": 00.00,
+ "amount": 60.11,
  "transactionTime": "2026-02-28T08:00:30Z"
  },
  {
@@ -2174,7 +2165,7 @@
  "cardNumber": "***8743",
  "locationCode": "UPTOWN",
  "productName": "L Tablet",
- "amount": 00.00,
+ "amount": 60.12,
  "transactionTime": "2026-02-28T08:06:30Z"
  },
  {
@@ -2183,7 +2174,7 @@
  "cardNumber": "***6855",
  "locationCode": "UPTOWN",
  "productName": "M Tablet",
- "amount": 00.00,
+ "amount": 60.13,
  "transactionTime": "2026-02-28T08:12:30Z"
  },
  {
@@ -2192,7 +2183,7 @@
  "cardNumber": "***0364",
  "locationCode": "UPTOWN",
  "productName": "N Tablet",
- "amount": 00.00,
+ "amount": 60.14,
  "transactionTime": "2026-02-28T08:18:30Z"
  },
  {
@@ -2201,7 +2192,7 @@
  "cardNumber": "***1459",
  "locationCode": "UPTOWN",
  "productName": "O Tablet",
- "amount": 00.00,
+ "amount": 60.15,
  "transactionTime": "2026-02-28T08:24:30Z"
  },
  {
@@ -2210,7 +2201,7 @@
  "cardNumber": "***4358",
  "locationCode": "UPTOWN",
  "productName": "P Tablet",
- "amount": 00.00,
+ "amount": 60.16,
  "transactionTime": "2026-02-28T08:30:30Z"
  },
  {
@@ -2219,7 +2210,7 @@
  "cardNumber": "***1525",
  "locationCode": "UPTOWN",
  "productName": "Q Tablet",
- "amount": 00.00,
+ "amount": 60.17,
  "transactionTime": "2026-02-28T08:36:30Z"
  },
  {
@@ -2228,7 +2219,7 @@
  "cardNumber": "***2184",
  "locationCode": "UPTOWN",
  "productName": "R Tablet",
- "amount": 00.00,
+ "amount": 60.18,
  "transactionTime": "2026-02-28T08:42:30Z"
  },
  {
@@ -2237,7 +2228,7 @@
  "cardNumber": "***1726",
  "locationCode": "UPTOWN",
  "productName": "S Tablet",
- "amount": 00.00,
+ "amount": 60.19,
  "transactionTime": "2026-02-28T08:48:30Z"
  },
  {
@@ -2246,7 +2237,7 @@
  "cardNumber": "***2149",
  "locationCode": "UPTOWN",
  "productName": "T Tablet",
- "amount": 00.00,
+ "amount": 60.20,
  "transactionTime": "2026-02-28T08:54:30Z"
  },
  {
@@ -2255,7 +2246,7 @@
  "cardNumber": "***9545",
  "locationCode": "UPTOWN",
  "productName": "U Tablet",
- "amount": 00.00,
+ "amount": 60.21,
  "transactionTime": "2026-02-28T09:00:30Z"
  },
  {
@@ -2264,7 +2255,7 @@
  "cardNumber": "***7923",
  "locationCode": "UPTOWN",
  "productName": "V Tablet",
- "amount": 00.00,
+ "amount": 60.22,
  "transactionTime": "2026-02-28T09:06:30Z"
  },
  {
@@ -2273,7 +2264,7 @@
  "cardNumber": "***4818",
  "locationCode": "UPTOWN",
  "productName": "W Tablet",
- "amount": 00.00,
+ "amount": 60.23,
  "transactionTime": "2026-02-28T09:12:30Z"
  },
  {
@@ -2282,7 +2273,7 @@
  "cardNumber": "***2098",
  "locationCode": "UPTOWN",
  "productName": "X Tablet",
- "amount": 00.00,
+ "amount": 60.24,
  "transactionTime": "2026-02-28T09:18:30Z"
  },
  {
@@ -2291,7 +2282,7 @@
  "cardNumber": "***0103",
  "locationCode": "UPTOWN",
  "productName": "Y Tablet",
- "amount": 00.00,
+ "amount": 60.25,
  "transactionTime": "2026-02-28T09:24:30Z"
  },
  {
@@ -2300,7 +2291,7 @@
  "cardNumber": "***5974",
  "locationCode": "UPTOWN",
  "productName": "Z Tablet",
- "amount": 00.00,
+ "amount": 60.26,
  "transactionTime": "2026-02-28T09:30:30Z"
  },
  {
@@ -2309,7 +2300,7 @@
  "cardNumber": "***8822",
  "locationCode": "UPTOWN",
  "productName": "Flip Phone",
- "amount": 00.00,
+ "amount": 45.00,
  "transactionTime": "2026-02-28T09:36:30Z"
  },
  {
@@ -2318,7 +2309,7 @@
  "cardNumber": "***0552",
  "locationCode": "UPTOWN",
  "productName": "B Phone",
- "amount": 00.00,
+ "amount": 50.02,
  "transactionTime": "2026-02-28T09:42:30Z"
  },
  {
@@ -2327,7 +2318,7 @@
  "cardNumber": "***1113",
  "locationCode": "UPTOWN",
  "productName": "C Phone",
- "amount": 00.00,
+ "amount": 50.03,
  "transactionTime": "2026-02-28T09:48:30Z"
  },
  {
@@ -2336,7 +2327,7 @@
  "cardNumber": "***7524",
  "locationCode": "UPTOWN",
  "productName": "D Phone",
- "amount": 00.00,
+ "amount": 50.04,
  "transactionTime": "2026-02-28T09:54:30Z"
  },
  {
@@ -2345,7 +2336,7 @@
  "cardNumber": "***1640",
  "locationCode": "UPTOWN",
  "productName": "E Phone",
- "amount": 00.00,
+ "amount": 50.05,
  "transactionTime": "2026-02-28T10:00:30Z"
  },
  {
@@ -2354,7 +2345,7 @@
  "cardNumber": "***6691",
  "locationCode": "UPTOWN",
  "productName": "F Phone",
- "amount": 00.00,
+ "amount": 50.06,
  "transactionTime": "2026-02-28T10:06:30Z"
  },
  {
@@ -2363,7 +2354,7 @@
  "cardNumber": "***4504",
  "locationCode": "UPTOWN",
  "productName": "G Phone",
- "amount": 00.00,
+ "amount": 50.07,
  "transactionTime": "2026-02-28T10:12:30Z"
  },
  {
@@ -2372,7 +2363,7 @@
  "cardNumber": "***1670",
  "locationCode": "UPTOWN",
  "productName": "H Phone",
- "amount": 00.00,
+ "amount": 50.08,
  "transactionTime": "2026-02-28T10:18:30Z"
  },
  {
@@ -2381,7 +2372,7 @@
  "cardNumber": "***7655",
  "locationCode": "UPTOWN",
  "productName": "I Phone",
- "amount": 00.00,
+ "amount": 50.09,
  "transactionTime": "2026-02-28T10:24:30Z"
  },
  {
@@ -2390,7 +2381,7 @@
  "cardNumber": "***4683",
  "locationCode": "UPTOWN",
  "productName": "J Phone",
- "amount": 00.00,
+ "amount": 50.10,
  "transactionTime": "2026-02-28T10:30:30Z"
  },
  {
@@ -2399,7 +2390,7 @@
  "cardNumber": "***6708",
  "locationCode": "UPTOWN",
  "productName": "K Phone",
- "amount": 00.00,
+ "amount": 50.11,
  "transactionTime": "2026-02-28T10:36:30Z"
  },
  {
@@ -2408,7 +2399,7 @@
  "cardNumber": "***2578",
  "locationCode": "UPTOWN",
  "productName": "L Phone",
- "amount": 00.00,
+ "amount": 50.12,
  "transactionTime": "2026-02-28T10:42:30Z"
  },
  {
@@ -2417,7 +2408,7 @@
  "cardNumber": "***3818",
  "locationCode": "UPTOWN",
  "productName": "M Phone",
- "amount": 00.00,
+ "amount": 50.13,
  "transactionTime": "2026-02-28T10:48:30Z"
  },
  {
@@ -2426,7 +2417,7 @@
  "cardNumber": "***7526",
  "locationCode": "UPTOWN",
  "productName": "N Phone",
- "amount": 00.00,
+ "amount": 50.14,
  "transactionTime": "2026-02-28T10:54:30Z"
  },
  {
@@ -2435,7 +2426,7 @@
  "cardNumber": "***4938",
  "locationCode": "UPTOWN",
  "productName": "O Phone",
- "amount": 00.00,
+ "amount": 50.15,
  "transactionTime": "2026-02-28T11:00:30Z"
  },
  {
@@ -2444,7 +2435,7 @@
  "cardNumber": "***6864",
  "locationCode": "UPTOWN",
  "productName": "P Phone",
- "amount": 00.00,
+ "amount": 50.16,
  "transactionTime": "2026-02-28T11:06:30Z"
  },
  {
@@ -2453,7 +2444,7 @@
  "cardNumber": "***5607",
  "locationCode": "UPTOWN",
  "productName": "Q Phone",
- "amount": 00.00,
+ "amount": 50.17,
  "transactionTime": "2026-02-28T11:12:30Z"
  },
  {
@@ -2462,7 +2453,7 @@
  "cardNumber": "***9716",
  "locationCode": "UPTOWN",
  "productName": "R Phone",
- "amount": 00.00,
+ "amount": 50.18,
  "transactionTime": "2026-02-28T11:18:30Z"
  },
  {
@@ -2471,7 +2462,7 @@
  "cardNumber": "***7397",
  "locationCode": "UPTOWN",
  "productName": "S Phone",
- "amount": 00.00,
+ "amount": 50.19,
  "transactionTime": "2026-02-28T11:24:30Z"
  },
  {
@@ -2480,7 +2471,7 @@
  "cardNumber": "***0535",
  "locationCode": "UPTOWN",
  "productName": "T Phone",
- "amount": 00.00,
+ "amount": 50.20,
  "transactionTime": "2026-02-28T11:30:30Z"
  },
  {
@@ -2489,7 +2480,7 @@
  "cardNumber": "***4375",
  "locationCode": "UPTOWN",
  "productName": "U Phone",
- "amount": 00.00,
+ "amount": 50.21,
  "transactionTime": "2026-02-28T11:36:30Z"
  },
  {
@@ -2498,7 +2489,7 @@
  "cardNumber": "***0803",
  "locationCode": "UPTOWN",
  "productName": "V Phone",
- "amount": 00.00,
+ "amount": 50.22,
  "transactionTime": "2026-02-28T11:42:30Z"
  },
  {
@@ -2507,7 +2498,7 @@
  "cardNumber": "***2644",
  "locationCode": "UPTOWN",
  "productName": "W Phone",
- "amount": 00.00,
+ "amount": 50.23,
  "transactionTime": "2026-02-28T11:48:30Z"
  },
  {
@@ -2516,16 +2507,7 @@
  "cardNumber": "***5246",
  "locationCode": "UPTOWN",
  "productName": "X Phone",
- "amount": 00.00,
+ "amount": 50.24,
  "transactionTime": "2026-02-28T11:54:30Z"
- },
- {
- "sourceSystem": "Store Uptown",
- "transactionId": 100280,
- "cardNumber": "***4244",
- "locationCode": "UPTOWN",
- "productName": "Y Phone",
- "amount": 00.00,
- "transactionTime": "2026-02-28T12:00:30Z"
  }
 ]

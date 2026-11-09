@@ -1,0 +1,272 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100180,
+ "cardNumber": "***5043",
+ "locationCode": "UPTOWN",
+ "productName": "Z Phone Case",
+ "amount": 20.26,
+ "transactionTime": "2026-02-28T02:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100181,
+ "cardNumber": "***5106",
+ "locationCode": "UPTOWN",
+ "productName": "B Phone Charger",
+ "amount": 30.02,
+ "transactionTime": "2026-02-28T02:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100182,
+ "cardNumber": "***3808",
+ "locationCode": "UPTOWN",
+ "productName": "C Phone Charger",
+ "amount": 30.03,
+ "transactionTime": "2026-02-28T02:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100183,
+ "cardNumber": "***6766",
+ "locationCode": "UPTOWN",
+ "productName": "D Phone Charger",
+ "amount": 30.04,
+ "transactionTime": "2026-02-28T02:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100184,
+ "cardNumber": "***5524",
+ "locationCode": "UPTOWN",
+ "productName": "E Phone Charger",
+ "amount": 30.05,
+ "transactionTime": "2026-02-28T02:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100185,
+ "cardNumber": "***3459",
+ "locationCode": "UPTOWN",
+ "productName": "F Phone Charger",
+ "amount": 30.06,
+ "transactionTime": "2026-02-28T02:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100186,
+ "cardNumber": "***3237",
+ "locationCode": "UPTOWN",
+ "productName": "G Phone Charger",
+ "amount": 30.07,
+ "transactionTime": "2026-02-28T02:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100187,
+ "cardNumber": "***1429",
+ "locationCode": "UPTOWN",
+ "productName": "H Phone Charger",
+ "amount": 30.08,
+ "transactionTime": "2026-02-28T02:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100188,
+ "cardNumber": "***6938",
+ "locationCode": "UPTOWN",
+ "productName": "I Phone Charger",
+ "amount": 30.09,
+ "transactionTime": "2026-02-28T02:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100189,
+ "cardNumber": "***7998",
+ "locationCode": "UPTOWN",
+ "productName": "J Phone Charger",
+ "amount": 30.10,
+ "transactionTime": "2026-02-28T02:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100180,
+ "cardNumber": "***5043",
+ "locationCode": "DOWNTOWN",
+ "productName": "Z Phone Case",
+ "amount": 20.26,
+ "transactionTime": "2026-02-28T02:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100181,
+ "cardNumber": "***5106",
+ "locationCode": "DOWNTOWN",
+ "productName": "B Phone Charger",
+ "amount": 30.02,
+ "transactionTime": "2026-02-28T02:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100182,
+ "cardNumber": "***3808",
+ "locationCode": "DOWNTOWN",
+ "productName": "C Phone Charger",
+ "amount": 30.03,
+ "transactionTime": "2026-02-28T02:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100183,
+ "cardNumber": "***6766",
+ "locationCode": "DOWNTOWN",
+ "productName": "D Phone Charger",
+ "amount": 30.04,
+ "transactionTime": "2026-02-28T02:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100184,
+ "cardNumber": "***5524",
+ "locationCode": "DOWNTOWN",
+ "productName": "E Phone Charger",
+ "amount": 30.05,
+ "transactionTime": "2026-02-28T02:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100185,
+ "cardNumber": "***3459",
+ "locationCode": "DOWNTOWN",
+ "productName": "F Phone Charger",
+ "amount": 30.06,
+ "transactionTime": "2026-02-28T02:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100186,
+ "cardNumber": "***3237",
+ "locationCode": "DOWNTOWN",
+ "productName": "G Phone Charger",
+ "amount": 30.07,
+ "transactionTime": "2026-02-28T02:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100187,
+ "cardNumber": "***1429",
+ "locationCode": "DOWNTOWN",
+ "productName": "H Phone Charger",
+ "amount": 30.08,
+ "transactionTime": "2026-02-28T02:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100188,
+ "cardNumber": "***6938",
+ "locationCode": "DOWNTOWN",
+ "productName": "I Phone Charger",
+ "amount": 30.09,
+ "transactionTime": "2026-02-28T02:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100189,
+ "cardNumber": "***7998",
+ "locationCode": "DOWNTOWN",
+ "productName": "J Phone Charger",
+ "amount": 30.10,
+ "transactionTime": "2026-02-28T02:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100180,
+ "cardNumber": "***5043",
+ "locationCode": "ONLINE",
+ "productName": "Z Phone Case",
+ "amount": 20.26,
+ "transactionTime": "2026-02-28T02:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100181,
+ "cardNumber": "***5106",
+ "locationCode": "ONLINE",
+ "productName": "B Phone Charger",
+ "amount": 30.02,
+ "transactionTime": "2026-02-28T02:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100182,
+ "cardNumber": "***3808",
+ "locationCode": "ONLINE",
+ "productName": "C Phone Charger",
+ "amount": 30.03,
+ "transactionTime": "2026-02-28T02:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100183,
+ "cardNumber": "***6766",
+ "locationCode": "ONLINE",
+ "productName": "D Phone Charger",
+ "amount": 30.04,
+ "transactionTime": "2026-02-28T02:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100184,
+ "cardNumber": "***5524",
+ "locationCode": "ONLINE",
+ "productName": "E Phone Charger",
+ "amount": 30.05,
+ "transactionTime": "2026-02-28T02:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100185,
+ "cardNumber": "***3459",
+ "locationCode": "ONLINE",
+ "productName": "F Phone Charger",
+ "amount": 30.06,
+ "transactionTime": "2026-02-28T02:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100186,
+ "cardNumber": "***3237",
+ "locationCode": "ONLINE",
+ "productName": "G Phone Charger",
+ "amount": 30.07,
+ "transactionTime": "2026-02-28T02:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100187,
+ "cardNumber": "***1429",
+ "locationCode": "ONLINE",
+ "productName": "H Phone Charger",
+ "amount": 30.08,
+ "transactionTime": "2026-02-28T02:42:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100188,
+ "cardNumber": "***6938",
+ "locationCode": "ONLINE",
+ "productName": "I Phone Charger",
+ "amount": 30.09,
+ "transactionTime": "2026-02-28T02:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100189,
+ "cardNumber": "***7998",
+ "locationCode": "ONLINE",
+ "productName": "J Phone Charger",
+ "amount": 30.10,
+ "transactionTime": "2026-02-28T02:54:30Z"
+ }
+]

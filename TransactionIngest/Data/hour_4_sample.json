@@ -1,0 +1,245 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100031,
+ "cardNumber": "***3923",
+ "locationCode": "UPTOWN",
+ "productName": "F Phone Case",
+ "amount": 20.06,
+ "transactionTime": "2026-02-27T11:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100032,
+ "cardNumber": "***9425",
+ "locationCode": "UPTOWN",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100033,
+ "cardNumber": "***5744",
+ "locationCode": "UPTOWN",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100034,
+ "cardNumber": "***4483",
+ "locationCode": "UPTOWN",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100035,
+ "cardNumber": "***8535",
+ "locationCode": "UPTOWN",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100036,
+ "cardNumber": "***1283",
+ "locationCode": "UPTOWN",
+ "productName": "I Phone Case",
+ "amount": 20.09,
+ "transactionTime": "2026-02-27T11:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100037,
+ "cardNumber": "***4027",
+ "locationCode": "UPTOWN",
+ "productName": "J Phone Case",
+ "amount": 20.10,
+ "transactionTime": "2026-02-27T11:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100038,
+ "cardNumber": "***9293",
+ "locationCode": "UPTOWN",
+ "productName": "K Phone Case",
+ "amount": 20.11,
+ "transactionTime": "2026-02-27T11:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100039,
+ "cardNumber": "***7669",
+ "locationCode": "UPTOWN",
+ "productName": "L Phone Case",
+ "amount": 20.12,
+ "transactionTime": "2026-02-27T11:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100031,
+ "cardNumber": "***3923",
+ "locationCode": "DOWNTOWN",
+ "productName": "F Phone Case",
+ "amount": 20.06,
+ "transactionTime": "2026-02-27T11:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100032,
+ "cardNumber": "***9425",
+ "locationCode": "DOWNTOWN",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100033,
+ "cardNumber": "***5744",
+ "locationCode": "DOWNTOWN",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100034,
+ "cardNumber": "***4483",
+ "locationCode": "DOWNTOWN",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100035,
+ "cardNumber": "***8535",
+ "locationCode": "DOWNTOWN",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100036,
+ "cardNumber": "***1283",
+ "locationCode": "DOWNTOWN",
+ "productName": "I Phone Case",
+ "amount": 20.09,
+ "transactionTime": "2026-02-27T11:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100037,
+ "cardNumber": "***4027",
+ "locationCode": "DOWNTOWN",
+ "productName": "J Phone Case",
+ "amount": 20.10,
+ "transactionTime": "2026-02-27T11:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100038,
+ "cardNumber": "***9293",
+ "locationCode": "DOWNTOWN",
+ "productName": "K Phone Case",
+ "amount": 20.11,
+ "transactionTime": "2026-02-27T11:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100039,
+ "cardNumber": "***7669",
+ "locationCode": "DOWNTOWN",
+ "productName": "L Phone Case",
+ "amount": 20.12,
+ "transactionTime": "2026-02-27T11:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100031,
+ "cardNumber": "***3923",
+ "locationCode": "ONLINE",
+ "productName": "F Phone Case",
+ "amount": 20.06,
+ "transactionTime": "2026-02-27T11:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100032,
+ "cardNumber": "***9425",
+ "locationCode": "ONLINE",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100033,
+ "cardNumber": "***5744",
+ "locationCode": "ONLINE",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100034,
+ "cardNumber": "***4483",
+ "locationCode": "ONLINE",
+ "productName": "G Phone Case",
+ "amount": 20.07,
+ "transactionTime": "2026-02-27T11:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100035,
+ "cardNumber": "***8535",
+ "locationCode": "ONLINE",
+ "productName": "H Phone Case",
+ "amount": 20.08,
+ "transactionTime": "2026-02-27T11:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100036,
+ "cardNumber": "***1283",
+ "locationCode": "ONLINE",
+ "productName": "I Phone Case",
+ "amount": 20.09,
+ "transactionTime": "2026-02-27T11:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100037,
+ "cardNumber": "***4027",
+ "locationCode": "ONLINE",
+ "productName": "J Phone Case",
+ "amount": 20.10,
+ "transactionTime": "2026-02-27T11:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100038,
+ "cardNumber": "***9293",
+ "locationCode": "ONLINE",
+ "productName": "K Phone Case",
+ "amount": 20.11,
+ "transactionTime": "2026-02-27T11:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100039,
+ "cardNumber": "***7669",
+ "locationCode": "ONLINE",
+ "productName": "L Phone Case",
+ "amount": 20.12,
+ "transactionTime": "2026-02-27T11:54:30Z"
+ }
+]

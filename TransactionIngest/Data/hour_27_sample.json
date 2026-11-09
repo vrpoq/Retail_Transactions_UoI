@@ -1,0 +1,272 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100260,
+ "cardNumber": "***1640",
+ "locationCode": "UPTOWN",
+ "productName": "E Phone",
+ "amount": 50.05,
+ "transactionTime": "2026-02-28T10:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100261,
+ "cardNumber": "***6691",
+ "locationCode": "UPTOWN",
+ "productName": "F Phone",
+ "amount": 50.06,
+ "transactionTime": "2026-02-28T10:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100262,
+ "cardNumber": "***4504",
+ "locationCode": "UPTOWN",
+ "productName": "G Phone",
+ "amount": 50.07,
+ "transactionTime": "2026-02-28T10:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100263,
+ "cardNumber": "***1670",
+ "locationCode": "UPTOWN",
+ "productName": "H Phone",
+ "amount": 50.08,
+ "transactionTime": "2026-02-28T10:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100264,
+ "cardNumber": "***7655",
+ "locationCode": "UPTOWN",
+ "productName": "I Phone",
+ "amount": 50.09,
+ "transactionTime": "2026-02-28T10:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100265,
+ "cardNumber": "***4683",
+ "locationCode": "UPTOWN",
+ "productName": "J Phone",
+ "amount": 50.10,
+ "transactionTime": "2026-02-28T10:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100266,
+ "cardNumber": "***6708",
+ "locationCode": "UPTOWN",
+ "productName": "K Phone",
+ "amount": 50.11,
+ "transactionTime": "2026-02-28T10:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100267,
+ "cardNumber": "***2578",
+ "locationCode": "UPTOWN",
+ "productName": "L Phone",
+ "amount": 50.12,
+ "transactionTime": "2026-02-28T10:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100268,
+ "cardNumber": "***3818",
+ "locationCode": "UPTOWN",
+ "productName": "M Phone",
+ "amount": 50.13,
+ "transactionTime": "2026-02-28T10:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100269,
+ "cardNumber": "***7526",
+ "locationCode": "UPTOWN",
+ "productName": "N Phone",
+ "amount": 50.14,
+ "transactionTime": "2026-02-28T10:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100260,
+ "cardNumber": "***1640",
+ "locationCode": "DOWNTOWN",
+ "productName": "E Phone",
+ "amount": 50.05,
+ "transactionTime": "2026-02-28T10:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100261,
+ "cardNumber": "***6691",
+ "locationCode": "DOWNTOWN",
+ "productName": "F Phone",
+ "amount": 50.06,
+ "transactionTime": "2026-02-28T10:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100262,
+ "cardNumber": "***4504",
+ "locationCode": "DOWNTOWN",
+ "productName": "G Phone",
+ "amount": 50.07,
+ "transactionTime": "2026-02-28T10:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100263,
+ "cardNumber": "***1670",
+ "locationCode": "DOWNTOWN",
+ "productName": "H Phone",
+ "amount": 50.08,
+ "transactionTime": "2026-02-28T10:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100264,
+ "cardNumber": "***7655",
+ "locationCode": "DOWNTOWN",
+ "productName": "I Phone",
+ "amount": 50.09,
+ "transactionTime": "2026-02-28T10:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100265,
+ "cardNumber": "***4683",
+ "locationCode": "DOWNTOWN",
+ "productName": "J Phone",
+ "amount": 50.10,
+ "transactionTime": "2026-02-28T10:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100266,
+ "cardNumber": "***6708",
+ "locationCode": "DOWNTOWN",
+ "productName": "K Phone",
+ "amount": 50.11,
+ "transactionTime": "2026-02-28T10:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100267,
+ "cardNumber": "***2578",
+ "locationCode": "DOWNTOWN",
+ "productName": "L Phone",
+ "amount": 50.12,
+ "transactionTime": "2026-02-28T10:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100268,
+ "cardNumber": "***3818",
+ "locationCode": "DOWNTOWN",
+ "productName": "M Phone",
+ "amount": 50.13,
+ "transactionTime": "2026-02-28T10:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100269,
+ "cardNumber": "***7526",
+ "locationCode": "DOWNTOWN",
+ "productName": "N Phone",
+ "amount": 50.14,
+ "transactionTime": "2026-02-28T10:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100260,
+ "cardNumber": "***1640",
+ "locationCode": "ONLINE",
+ "productName": "E Phone",
+ "amount": 50.05,
+ "transactionTime": "2026-02-28T10:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100261,
+ "cardNumber": "***6691",
+ "locationCode": "ONLINE",
+ "productName": "F Phone",
+ "amount": 50.06,
+ "transactionTime": "2026-02-28T10:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100262,
+ "cardNumber": "***4504",
+ "locationCode": "ONLINE",
+ "productName": "G Phone",
+ "amount": 50.07,
+ "transactionTime": "2026-02-28T10:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100263,
+ "cardNumber": "***1670",
+ "locationCode": "ONLINE",
+ "productName": "H Phone",
+ "amount": 50.08,
+ "transactionTime": "2026-02-28T10:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100264,
+ "cardNumber": "***7655",
+ "locationCode": "ONLINE",
+ "productName": "I Phone",
+ "amount": 50.09,
+ "transactionTime": "2026-02-28T10:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100265,
+ "cardNumber": "***4683",
+ "locationCode": "ONLINE",
+ "productName": "J Phone",
+ "amount": 50.10,
+ "transactionTime": "2026-02-28T10:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100266,
+ "cardNumber": "***6708",
+ "locationCode": "ONLINE",
+ "productName": "K Phone",
+ "amount": 50.11,
+ "transactionTime": "2026-02-28T10:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100267,
+ "cardNumber": "***2578",
+ "locationCode": "ONLINE",
+ "productName": "L Phone",
+ "amount": 50.12,
+ "transactionTime": "2026-02-28T10:42:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100268,
+ "cardNumber": "***3818",
+ "locationCode": "ONLINE",
+ "productName": "M Phone",
+ "amount": 50.13,
+ "transactionTime": "2026-02-28T10:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100269,
+ "cardNumber": "***7526",
+ "locationCode": "ONLINE",
+ "productName": "N Phone",
+ "amount": 50.14,
+ "transactionTime": "2026-02-28T10:54:30Z"
+ }
+]

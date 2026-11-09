@@ -1,0 +1,272 @@
+[
+{
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100230,
+ "cardNumber": "***5867",
+ "locationCode": "UPTOWN",
+ "productName": "Z Earbuds",
+ "amount": 40.26,
+ "transactionTime": "2026-02-28T07:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100231,
+ "cardNumber": "***6616",
+ "locationCode": "UPTOWN",
+ "productName": "B Tablet",
+ "amount": 60.02,
+ "transactionTime": "2026-02-28T07:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100232,
+ "cardNumber": "***0706",
+ "locationCode": "UPTOWN",
+ "productName": "C Tablet",
+ "amount": 60.03,
+ "transactionTime": "2026-02-28T07:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100233,
+ "cardNumber": "***5997",
+ "locationCode": "UPTOWN",
+ "productName": "D Tablet",
+ "amount": 60.04,
+ "transactionTime": "2026-02-28T07:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100234,
+ "cardNumber": "***8449",
+ "locationCode": "UPTOWN",
+ "productName": "E Tablet",
+ "amount": 60.05,
+ "transactionTime": "2026-02-28T07:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100235,
+ "cardNumber": "***1901",
+ "locationCode": "UPTOWN",
+ "productName": "F Tablet",
+ "amount": 60.06,
+ "transactionTime": "2026-02-28T07:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100236,
+ "cardNumber": "***0036",
+ "locationCode": "UPTOWN",
+ "productName": "G Tablet",
+ "amount": 60.07,
+ "transactionTime": "2026-02-28T07:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100237,
+ "cardNumber": "***8046",
+ "locationCode": "UPTOWN",
+ "productName": "H Tablet",
+ "amount": 60.08,
+ "transactionTime": "2026-02-28T07:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100238,
+ "cardNumber": "***3091",
+ "locationCode": "UPTOWN",
+ "productName": "I Tablet",
+ "amount": 60.09,
+ "transactionTime": "2026-02-28T07:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Uptown",
+ "transactionId": 100239,
+ "cardNumber": "***2537",
+ "locationCode": "UPTOWN",
+ "productName": "J Tablet",
+ "amount": 60.10,
+ "transactionTime": "2026-02-28T07:54:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100230,
+ "cardNumber": "***5867",
+ "locationCode": "DOWNTOWN",
+ "productName": "Z Earbuds",
+ "amount": 40.26,
+ "transactionTime": "2026-02-28T07:00:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100231,
+ "cardNumber": "***6616",
+ "locationCode": "DOWNTOWN",
+ "productName": "B Tablet",
+ "amount": 60.02,
+ "transactionTime": "2026-02-28T07:06:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100232,
+ "cardNumber": "***0706",
+ "locationCode": "DOWNTOWN",
+ "productName": "C Tablet",
+ "amount": 60.03,
+ "transactionTime": "2026-02-28T07:12:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100233,
+ "cardNumber": "***5997",
+ "locationCode": "DOWNTOWN",
+ "productName": "D Tablet",
+ "amount": 60.04,
+ "transactionTime": "2026-02-28T07:18:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100234,
+ "cardNumber": "***8449",
+ "locationCode": "DOWNTOWN",
+ "productName": "E Tablet",
+ "amount": 60.05,
+ "transactionTime": "2026-02-28T07:24:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100235,
+ "cardNumber": "***1901",
+ "locationCode": "DOWNTOWN",
+ "productName": "F Tablet",
+ "amount": 60.06,
+ "transactionTime": "2026-02-28T07:30:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100236,
+ "cardNumber": "***0036",
+ "locationCode": "DOWNTOWN",
+ "productName": "G Tablet",
+ "amount": 60.07,
+ "transactionTime": "2026-02-28T07:36:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100237,
+ "cardNumber": "***8046",
+ "locationCode": "DOWNTOWN",
+ "productName": "H Tablet",
+ "amount": 60.08,
+ "transactionTime": "2026-02-28T07:42:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100238,
+ "cardNumber": "***3091",
+ "locationCode": "DOWNTOWN",
+ "productName": "I Tablet",
+ "amount": 60.09,
+ "transactionTime": "2026-02-28T07:48:30Z"
+ },
+ {
+ "sourceSystem": "Store Downtown",
+ "transactionId": 100239,
+ "cardNumber": "***2537",
+ "locationCode": "DOWNTOWN",
+ "productName": "J Tablet",
+ "amount": 60.10,
+ "transactionTime": "2026-02-28T07:54:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100230,
+ "cardNumber": "***5867",
+ "locationCode": "ONLINE",
+ "productName": "Z Earbuds",
+ "amount": 40.26,
+ "transactionTime": "2026-02-28T07:00:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100231,
+ "cardNumber": "***6616",
+ "locationCode": "ONLINE",
+ "productName": "B Tablet",
+ "amount": 60.02,
+ "transactionTime": "2026-02-28T07:06:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100232,
+ "cardNumber": "***0706",
+ "locationCode": "ONLINE",
+ "productName": "C Tablet",
+ "amount": 60.03,
+ "transactionTime": "2026-02-28T07:12:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100233,
+ "cardNumber": "***5997",
+ "locationCode": "ONLINE",
+ "productName": "D Tablet",
+ "amount": 60.04,
+ "transactionTime": "2026-02-28T07:18:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100234,
+ "cardNumber": "***8449",
+ "locationCode": "ONLINE",
+ "productName": "E Tablet",
+ "amount": 60.05,
+ "transactionTime": "2026-02-28T07:24:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100235,
+ "cardNumber": "***1901",
+ "locationCode": "ONLINE",
+ "productName": "F Tablet",
+ "amount": 60.06,
+ "transactionTime": "2026-02-28T07:30:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100236,
+ "cardNumber": "***0036",
+ "locationCode": "ONLINE",
+ "productName": "G Tablet",
+ "amount": 60.07,
+ "transactionTime": "2026-02-28T07:36:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100237,
+ "cardNumber": "***8046",
+ "locationCode": "ONLINE",
+ "productName": "H Tablet",
+ "amount": 60.08,
+ "transactionTime": "2026-02-28T07:42:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100238,
+ "cardNumber": "***3091",
+ "locationCode": "ONLINE",
+ "productName": "I Tablet",
+ "amount": 60.09,
+ "transactionTime": "2026-02-28T07:48:30Z"
+ },
+ {
+ "sourceSystem": "Online",
+ "transactionId": 100239,
+ "cardNumber": "***2537",
+ "locationCode": "ONLINE",
+ "productName": "J Tablet",
+ "amount": 60.10,
+ "transactionTime": "2026-02-28T07:54:30Z"
+ }
+]
