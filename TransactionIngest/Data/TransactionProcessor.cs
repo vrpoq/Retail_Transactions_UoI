@@ -103,15 +103,6 @@ namespace TransactionIngest.Data
                         insertTransactions.Add(transaction);
                     }
                 }
-
-                // TODO update sample data to include updated transactions
-                //      same transaction time, different other details
-                //      first transaction might have incorrect product name & amount, for example - user misclicked, perhaps
-                // should be
-                //      20% updates
-                //      10% revokes
-                //          include revoke to insert & revoke to prev. update
-                //      70% inserts
             }
 
             // after processing, set to insert into DB with AddRange
