@@ -31,7 +31,10 @@ namespace TransactionIngest.Models
         [Display(Name = "Transaction Time")]
         public DateTime TransactionTime { get; set; } // already in UTC
         [StringLength(19)]
+        [Display(Name = "Audit History")]
         public string AuditHistory { get; set; }
+        [Display(Name = "Revision Number")]
+        public int RevisionNumber { get; set; }
 
     }
 }

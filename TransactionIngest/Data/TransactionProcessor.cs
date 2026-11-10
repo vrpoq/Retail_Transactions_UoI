@@ -47,7 +47,7 @@ namespace TransactionIngest.Data
             // TODO add error handling for if RecordDisplayLimit is not in config file
             displayLimit = builder.Configuration.GetValue<int>("RecordDisplayLimit");
             // if displayLimit is larger than number of items in list, Take just grabs all items in list; if displayLimit is negative, Take grabs 0 items in list
-            returnList = (List<Transaction>)context.Transactions.ToList().Take(displayLimit).ToList(); // throws error if not cast to list again
+            returnList = context.Transactions.ToList().Take(displayLimit).OrderBy(transac => transac.TransactionId).ToList(); // throws error if not cast to list again
 
             Console.WriteLine(logSeparator);
             Console.WriteLine("PostTransactions end at " + DateTime.Now);
@@ -63,46 +63,49 @@ namespace TransactionIngest.Data
             Console.WriteLine(logSeparator);
 
             List<Transaction> insertTransactions = new List<Transaction>();
-            List<Transaction> updateTransactions = new List<Transaction>();
 
-            // most transactions in hourlyTransactions are going to be inserts
-            // however, need to check each incoming transaction to see if its primary key matches an existing transaction within the last 24 hours (1 day)
-            //      want to update matching transactions & insert the rest
-
+            // update matching transactions & insert the rest
             foreach (Transaction transaction in hourlyTransactions){
-                // modelBuilder.Entity<Transaction>().ToTable("Transaction").HasKey(c => new { c.SourceSystem, c.TransactionId });
-                DateTime startRange = transaction.TransactionTime.AddDays(-1); // works great
+                DateTime startRange = transaction.TransactionTime.AddDays(-1);
                 string uniqueID = transaction.SourceSystem + transaction.TransactionId.ToString();
 
-                // find any transactions within the last 24 hours which need to be updated (have matching primary key)
-                updateTransactions = context.Transactions.Where(transaction => (transaction.TransactionTime >= startRange && (transaction.SourceSystem + transaction.TransactionId.ToString() == uniqueID))).ToList();
-                //  TODO consider adding RevisionNumber to data model to indicate how many times a transaction has been updated
+                // find any transaction within the last 24 hours which need to be updated (has matching primary key)
+                Transaction transToUpdate = context.Transactions.FirstOrDefault(transaction => transaction.TransactionTime >= startRange && (transaction.SourceSystem + transaction.TransactionId.ToString() == uniqueID));
 
-                if (updateTransactions.Count == 0) {
-                    insertTransactions.Add(transaction); // works great
+                if (transToUpdate is null) {
+                    transaction.AuditHistory = "insert";
+                    transaction.RevisionNumber = 0;
+                    insertTransactions.Add(transaction);
                 }
-                else
+                else // TODO add error handling - https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/update-related-data?view=aspnetcore-10.0
                 {
-                    // expecting to see ID 100001 from Store Uptown - buying an H Phone instead of a flip phone
-                    //  yep!
-                    foreach (Transaction trans in updateTransactions) // should be just one if matching primary key
+                    // make sure values are different; capture details from incoming record
+                    string newCardNum = transaction.CardNumber;
+                    string newLocCode = transaction.LocationCode;
+                    string newProdName = transaction.ProductName;
+                    decimal newAmount = transaction.Amount;
+                    DateTime newTransacTime = transaction.TransactionTime;
+                    // for revision number, want existing transaction's count
+                    int newRevision = transToUpdate.RevisionNumber; 
+
+                    if (transToUpdate.CardNumber == newCardNum && transToUpdate.LocationCode == newLocCode && transToUpdate.ProductName == newProdName && transToUpdate.Amount == newAmount && transToUpdate.TransactionTime == newTransacTime)
                     {
+                        // perhaps repeat transaction included by mistake, or re-importing a file
+                        Console.WriteLine("Identical transaction for " + transToUpdate.SourceSystem + ", " + transToUpdate.TransactionId);
+                    }
+                    else // details have changed; remove and re-insert
+                    {
+                        Console.WriteLine("Updating transaction for " + transToUpdate.SourceSystem + ", " + transToUpdate.TransactionId);
 
-                        // TODO handle update
-
-                        //Console.WriteLine(transaction.CardNumber);
-                        //Console.WriteLine(transaction.LocationCode);
-                        //Console.WriteLine(transaction.ProductName);
-                        //Console.WriteLine(transaction.Amount);
-                        //Console.WriteLine(transaction.TransactionTime);
-
-                        //Console.WriteLine(logSeparator);
-                        //Console.WriteLine(trans.SourceSystem + ", " + trans.TransactionId);
-                        //Console.WriteLine(logSeparator);
+                        context.Transactions.Remove(transToUpdate);
+                        transaction.AuditHistory = "updated";
+                        transaction.RevisionNumber = newRevision + 1;
+                        insertTransactions.Add(transaction);
                     }
                 }
 
                 // TODO update sample data to include updated transactions
+                //      same transaction time, different other details
                 //      first transaction might have incorrect product name & amount, for example - user misclicked, perhaps
                 // should be
                 //      20% updates
@@ -111,22 +114,8 @@ namespace TransactionIngest.Data
                 //      70% inserts
             }
 
-            // after processing & editing insertTransactions, set to insert into DB with AddRange
+            // after processing, set to insert into DB with AddRange
             context.Transactions.AddRange(insertTransactions);
-
-            // works great!
-            /*
-            foreach (Transaction transaction in hourlyTransactions){
-                Console.WriteLine(transaction.SourceSystem);
-                Console.WriteLine(transaction.TransactionId);
-                Console.WriteLine(transaction.CardNumber);
-                Console.WriteLine(transaction.LocationCode);
-                Console.WriteLine(transaction.ProductName);
-                Console.WriteLine(transaction.Amount);
-                Console.WriteLine(transaction.TransactionTime);
-                Console.WriteLine("--------------------");
-            }
-            */
 
             Console.WriteLine(logSeparator);
             Console.WriteLine("parseImport end at " + DateTime.Now);
@@ -140,11 +129,8 @@ namespace TransactionIngest.Data
             Console.WriteLine(logSeparator);
 
             List<Transaction> hourlyTransactions = GetTransactions("hour_2_sample.json"); // hardcoding to test
-            
             parseImport(context, hourlyTransactions);
-
-            //context.Transactions.AddRange(hourlyTransactions);
-            context.SaveChanges(); // insert into DB
+            context.SaveChanges(); // save insert into DB
 
             Console.WriteLine(logSeparator);
             Console.WriteLine("SaveToDB end at " + DateTime.Now);
