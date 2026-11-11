@@ -73,6 +73,9 @@ namespace TransactionIngest.Data
                 Transaction transToUpdate = context.Transactions.FirstOrDefault(transaction => transaction.TransactionTime >= startRange && (transaction.SourceSystem + transaction.TransactionId.ToString() == uniqueID));
 
                 if (transToUpdate is null) {
+
+                    Console.WriteLine("Inserting transaction " + transaction.SourceSystem + ", " + transaction.TransactionId);
+
                     transaction.AuditHistory = "insert";
                     transaction.RevisionNumber = 0;
                     insertTransactions.Add(transaction);
@@ -119,7 +122,7 @@ namespace TransactionIngest.Data
             Console.WriteLine("SaveToDB start at " + DateTime.Now);
             Console.WriteLine(logSeparator);
 
-            List<Transaction> hourlyTransactions = GetTransactions("hour_2_sample.json"); // hardcoding to test
+            List<Transaction> hourlyTransactions = GetTransactions("hour_3_sample.json"); // hardcoding to test
             parseImport(context, hourlyTransactions);
             context.SaveChanges(); // save insert into DB
 

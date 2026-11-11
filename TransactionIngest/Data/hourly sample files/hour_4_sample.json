@@ -244,15 +244,6 @@
  },
  {
  "sourceSystem": "Online",
- "transactionId": 100008,
- "cardNumber": "***6711",
- "locationCode": "ONLINE",
- "productName": "E Phone",
- "amount": 50.05,
- "transactionTime": "2026-02-27T08:42:30Z"
- },
- {
- "sourceSystem": "Online",
  "transactionId": 100009,
  "cardNumber": "***4518",
  "locationCode": "ONLINE",
@@ -271,7 +262,7 @@
  },
 {
  "sourceSystem": "Store Uptown",
- "transactionId": 1000011,
+ "transactionId": 100011,
  "cardNumber": "***4306",
  "locationCode": "UPTOWN",
  "productName": "H Phone",
@@ -331,15 +322,6 @@
  "productName": "N Phone",
  "amount": 50.14,
  "transactionTime": "2026-02-27T09:36:30Z"
- },
- {
- "sourceSystem": "Store Uptown",
- "transactionId": 100018,
- "cardNumber": "***9419",
- "locationCode": "UPTOWN",
- "productName": "O Phone",
- "amount": 50.15,
- "transactionTime": "2026-02-27T09:42:30Z"
  },
  {
  "sourceSystem": "Store Uptown",

@@ -244,15 +244,6 @@
  },
  {
  "sourceSystem": "Online",
- "transactionId": 100008,
- "cardNumber": "***6711",
- "locationCode": "ONLINE",
- "productName": "E Phone",
- "amount": 50.05,
- "transactionTime": "2026-02-27T08:42:30Z"
- },
- {
- "sourceSystem": "Online",
  "transactionId": 100009,
  "cardNumber": "***4518",
  "locationCode": "ONLINE",
@@ -271,7 +262,7 @@
  },
 {
  "sourceSystem": "Store Uptown",
- "transactionId": 1000011,
+ "transactionId": 100011,
  "cardNumber": "***4306",
  "locationCode": "UPTOWN",
  "productName": "H Phone",
@@ -331,15 +322,6 @@
  "productName": "N Phone",
  "amount": 50.14,
  "transactionTime": "2026-02-27T09:36:30Z"
- },
- {
- "sourceSystem": "Store Uptown",
- "transactionId": 100018,
- "cardNumber": "***9419",
- "locationCode": "UPTOWN",
- "productName": "O Phone",
- "amount": 50.15,
- "transactionTime": "2026-02-27T09:42:30Z"
  },
  {
  "sourceSystem": "Store Uptown",
@@ -658,15 +640,6 @@
  },
  {
  "sourceSystem": "Store Downtown",
- "transactionId": 100024,
- "cardNumber": "***2949",
- "locationCode": "DOWNTOWN",
- "productName": "U Phone",
- "amount": 50.21,
- "transactionTime": "2026-02-27T10:18:30Z"
- },
- {
- "sourceSystem": "Store Downtown",
  "transactionId": 100025,
  "cardNumber": "***0941",
  "locationCode": "DOWNTOWN",
@@ -946,15 +919,6 @@
  },
  {
  "sourceSystem": "Store Downtown",
- "transactionId": 100037,
- "cardNumber": "***4027",
- "locationCode": "DOWNTOWN",
- "productName": "J Phone Case",
- "amount": 20.10,
- "transactionTime": "2026-02-27T11:36:30Z"
- },
- {
- "sourceSystem": "Store Downtown",
  "transactionId": 100038,
  "cardNumber": "***9293",
  "locationCode": "DOWNTOWN",
@@ -1279,15 +1243,6 @@
  },
  {
  "sourceSystem": "Online",
- "transactionId": 100045,
- "cardNumber": "***2436",
- "locationCode": "ONLINE",
- "productName": "R Phone Case",
- "amount": 20.18,
- "transactionTime": "2026-02-27T12:30:30Z"
- },
- {
- "sourceSystem": "Online",
  "transactionId": 100046,
  "cardNumber": "***4426",
  "locationCode": "ONLINE",
@@ -1549,15 +1504,6 @@
  },
  {
  "sourceSystem": "Online",
- "transactionId": 100055,
- "cardNumber": "***2808",
- "locationCode": "ONLINE",
- "productName": "C Phone Charger",
- "amount": 30.03,
- "transactionTime": "2026-02-27T13:30:30Z"
- },
- {
- "sourceSystem": "Online",
  "transactionId": 100056,
  "cardNumber": "***7157",
  "locationCode": "ONLINE",
@@ -1672,15 +1618,6 @@
  "productName": "P Phone Charger",
  "amount": 30.16,
  "transactionTime": "2026-02-27T14:48:30Z"
- },
- {
- "sourceSystem": "Store Uptown",
- "transactionId": 100069,
- "cardNumber": "***2114",
- "locationCode": "UPTOWN",
- "productName": "Q Phone Charger",
- "amount": 30.17,
- "transactionTime": "2026-02-27T14:54:30Z"
  },
  {
  "sourceSystem": "Store Downtown",
@@ -1924,15 +1861,6 @@
  "productName": "X Phone Charger",
  "amount": 30.24,
  "transactionTime": "2026-02-27T15:36:30Z"
- },
- {
- "sourceSystem": "Store Uptown",
- "transactionId": 100077,
- "cardNumber": "***7020",
- "locationCode": "UPTOWN",
- "productName": "Y Phone Charger",
- "amount": 30.25,
- "transactionTime": "2026-02-27T15:42:30Z"
  },
  {
  "sourceSystem": "Store Uptown",
