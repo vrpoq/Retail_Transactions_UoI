@@ -1,3 +1,4 @@
+//using System.Transactions;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TransactionIngest.Models;
@@ -6,7 +7,7 @@ namespace TransactionIngest.Data
 {
     public class TransactionProcessor : IDataAPI
     {
-        // use this list to import all the data at once via for loop in SaveToDB
+        // can use this list to import all the data at once via for loop in SaveToDB
         List<String> fileNames = new List<string> { "hour_1_sample.json", "hour_2_sample.json", "hour_3_sample.json", "hour_4_sample.json", "hour_5_sample.json","hour_6_sample.json","hour_7_sample.json","hour_8_sample.json","hour_9_sample.json","hour_10_sample.json","hour_11_sample.json","hour_12_sample.json","hour_13_sample.json","hour_14_sample.json","hour_15_sample.json","hour_16_sample.json","hour_17_sample.json","hour_18_sample.json","hour_19_sample.json","hour_20_sample.json","hour_21_sample.json","hour_22_sample.json","hour_23_sample.json","hour_24_sample.json","hour_25_sample.json","hour_26_sample.json","hour_27_sample.json","hour_28_sample.json"};
         static string logSeparator = "--------------------";
         static List<string> batchIDs = new List<string>();
@@ -102,6 +103,17 @@ namespace TransactionIngest.Data
         {
             try
             {
+                if(currTransaction.SourceSystem == "" || string.IsNullOrEmpty(currTransaction.SourceSystem))
+                {
+                    Console.WriteLine("ERROR - markInsert - source system is invalid");
+                    return null;
+                }
+                if(currTransaction.TransactionId == 0)
+                {
+                    Console.WriteLine("ERROR - markInsert - transaction ID is invalid");
+                    return null;
+                }
+
                 Console.WriteLine("Inserting transaction " + currTransaction.SourceSystem + ", " + currTransaction.TransactionId);
                 currTransaction.FullDayRange = currTransaction.TransactionTime.AddDays(1);
                 currTransaction.AuditHistory = "insert";
@@ -119,8 +131,8 @@ namespace TransactionIngest.Data
         public static List<Transaction> markInsertUpdate(TransactionContext context, List<Transaction> hourlyTransactions)
         {
             List<Transaction> insertUpdateTransactions = new List<Transaction>();
-            Transaction insertedTransaction = new Transaction();
-            Transaction updatedTransaction = new Transaction();
+            Transaction insertedTransaction = new Transaction() {SourceSystem = "", TransactionId = 0};
+            Transaction updatedTransaction = new Transaction() {SourceSystem = "", TransactionId = 0};
 
             try
             {
@@ -164,6 +176,17 @@ namespace TransactionIngest.Data
         {
             try
             {
+                if(transToUpdate.SourceSystem == "" || string.IsNullOrEmpty(transToUpdate.SourceSystem))
+                {
+                    Console.WriteLine("ERROR - markUpdated - transToUpdate source system is invalid");
+                    return null;
+                }
+                if(transToUpdate.TransactionId == 0)
+                {
+                    Console.WriteLine("ERROR - markUpdated - transToUpdate transaction ID is invalid");
+                    return null;
+                }
+
                 // make sure values are different; capture details from incoming record
                 string newCardNum = currTransaction.CardNumber;
                 string newLocCode = currTransaction.LocationCode;
@@ -242,6 +265,17 @@ namespace TransactionIngest.Data
             {
                 foreach (Transaction toRevoke in identifiedRevoked)
                 {
+                    if(toRevoke.SourceSystem == "" || string.IsNullOrEmpty(toRevoke.SourceSystem))
+                    {
+                        Console.WriteLine("ERROR - markRevoked - source system is invalid");
+                        return null;
+                    }
+                    if(toRevoke.TransactionId == 0)
+                    {
+                        Console.WriteLine("ERROR - markRevoked - transaction ID is invalid");
+                        return null;
+                    }
+
                     Transaction currTransaction = Transaction.DeepCopy(toRevoke);
                     currTransaction.AuditHistory = "revoked";
                     currTransaction.RevisionNumber ++;
@@ -259,7 +293,6 @@ namespace TransactionIngest.Data
             }
         }
 
-        // TODO create a way to manually import data - file browse with button?
         public static void parseImport(TransactionContext context, List<Transaction> hourlyTransactions)
         {
             try
@@ -299,7 +332,7 @@ namespace TransactionIngest.Data
                 Console.WriteLine("SaveToDB start at " + DateTime.Now);
                 Console.WriteLine(logSeparator);
 
-                List<Transaction> hourlyTransactions = GetTransactions(fileName); // hardcoding to test
+                List<Transaction> hourlyTransactions = GetTransactions(fileName);
                 parseImport(context, hourlyTransactions);
                 context.SaveChanges(); // save insert into DB
 

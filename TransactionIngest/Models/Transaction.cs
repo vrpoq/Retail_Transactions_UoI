@@ -40,18 +40,19 @@ namespace TransactionIngest.Models
 
         public static Transaction DeepCopy(Transaction inTransaction)
         {
-            Transaction deepCopyTrans = new Transaction(); 
-
-            deepCopyTrans.SourceSystem = inTransaction.SourceSystem;
-            deepCopyTrans.TransactionId = inTransaction.TransactionId;
-            deepCopyTrans.CardNumber = inTransaction.CardNumber;
-            deepCopyTrans.LocationCode = inTransaction.LocationCode;
-            deepCopyTrans.ProductName = inTransaction.ProductName;
-            deepCopyTrans.Amount = inTransaction.Amount;
-            deepCopyTrans.TransactionTime = inTransaction.TransactionTime;
-            deepCopyTrans.FullDayRange = inTransaction.FullDayRange;
-            deepCopyTrans.AuditHistory = inTransaction.AuditHistory;
-            deepCopyTrans.RevisionNumber = inTransaction.RevisionNumber;
+            Transaction deepCopyTrans = new Transaction()
+            {
+                SourceSystem = inTransaction.SourceSystem,
+                TransactionId = inTransaction.TransactionId,
+                CardNumber = inTransaction.CardNumber,
+                LocationCode = inTransaction.LocationCode,
+                ProductName = inTransaction.ProductName,
+                Amount = inTransaction.Amount,
+                TransactionTime = inTransaction.TransactionTime,
+                FullDayRange = inTransaction.FullDayRange,
+                AuditHistory = inTransaction.AuditHistory,
+                RevisionNumber = inTransaction.RevisionNumber
+            };
 
             return deepCopyTrans;
         }
