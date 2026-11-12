@@ -5,8 +5,16 @@
     ViewData["Title"] = "Index";
 }
 
+@{
+    string auditColumnStyle = Model.AuditColumnStyle; // "display:none", "display:block width=100%", etc.
+}
+
 <form method="post">
     <input type="text" id="txtFileName" name="fileName" value="hour_1_sample.json">
+    <!--
+    <input type="checkbox" id="chkHideAudit" name="hideAudit" value="true">
+    <label for="chkHideAudit"> Show Hidden Columns</label>
+    -->
     <input type="submit" value="Import" class="btn btn-primary" />
     <p>
         File names are in the format "hour_X_sample.json", where X ranges from 1 to 28.
@@ -37,17 +45,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Transaction[0].TransactionTime)
             </th>
-            <!---
-            uncomment this and related body cells to view audit history & revision number
-            --->
-            <!---
-            <th>
+            <th class="hiddenCols" style="@auditColumnStyle">
                 @Html.DisplayNameFor(model => model.Transaction[0].AuditHistory)
             </th>
-            <th>
+            <th class="hiddenCols" style="@auditColumnStyle">
                 @Html.DisplayNameFor(model => model.Transaction[0].RevisionNumber)
             </th>
-            --->
             <th></th>
         </tr>
     </thead>
@@ -75,17 +78,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.TransactionTime)
             </td>
-            <!---
-            uncomment this and related header cells to view audit history & revision number
-            --->
-            <!---
-            <td>
+            <td class="hiddenCols" style="@auditColumnStyle">
                 @Html.DisplayFor(modelItem => item.AuditHistory)
             </td>
-            <td>
+            <td class="hiddenCols" style="@auditColumnStyle">
                 @Html.DisplayFor(modelItem => item.RevisionNumber)
             </td>
-            --->
+            <td></td>
         </tr>
 }
     </tbody>

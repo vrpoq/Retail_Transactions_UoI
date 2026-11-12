@@ -14,9 +14,14 @@ namespace TransactionIngest.Pages.Transactions
     {
         private readonly TransactionIngest.Data.TransactionContext _context;
 
+        public string AuditColumnStyle = "display:none";
+
         public IndexModel(TransactionIngest.Data.TransactionContext context)
         {
             _context = context;
+
+            var builder = WebApplication.CreateBuilder();
+            AuditColumnStyle = builder.Configuration.GetValue<string>("AuditColumnStyle");
         }
 
         public List<Transaction> Transaction { get;set; } = default!;
@@ -26,12 +31,16 @@ namespace TransactionIngest.Pages.Transactions
             Transaction = TransactionProcessor.PostTransactions(_context);
         }
 
-        public IActionResult OnPost(string fileName) // pass in name/id of textbox value
+        public IActionResult OnPost(string fileName) // pass in name of input controls
         {
             // import new values
             TransactionProcessor.SaveToDB(_context, fileName);
             // add to display list
             Transaction = TransactionProcessor.PostTransactions(_context);
+
+            // set whether or not to show audit history & revision number cols via checkbox
+            //HideAuditCols = hideAudit;
+
             // refresh index
             return RedirectToPage("./Index");
         }

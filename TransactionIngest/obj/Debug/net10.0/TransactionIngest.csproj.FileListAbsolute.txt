@@ -245,8 +245,6 @@ C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\z3e9fqrdwd-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\kyt766f2bv-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\w5fef18cs4-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\ieh9fx2z51-{0}-eb2o0c3akk-eb2o0c3akk.gz
-C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\zys79n493l-{0}-eb2o0c3akk-eb2o0c3akk.gz
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\staticwebassets.development.json
@@ -286,3 +284,5 @@ C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_7_sample.json
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_8_sample.json
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_9_sample.json
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\ieh9fx2z51-{0}-5g0xohx6ea-5g0xohx6ea.gz
+C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\obj\Debug\net10.0\compressed\zys79n493l-{0}-5g0xohx6ea-5g0xohx6ea.gz
