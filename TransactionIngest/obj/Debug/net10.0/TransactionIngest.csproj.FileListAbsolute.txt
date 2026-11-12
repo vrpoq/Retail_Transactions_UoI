@@ -286,6 +286,3 @@ C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_7_sample.json
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_8_sample.json
 C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\hourly sample files\hour_9_sample.json
-C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\downtown_sample.json
-C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\online_sample.json
-C:\Users\vpera\Retail_Transactions_UoI\Retail_Transactions_UoI\TransactionIngest\bin\Debug\net10.0\Data\original sample files\uptown_sample.json
