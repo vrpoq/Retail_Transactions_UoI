@@ -30,11 +30,31 @@ namespace TransactionIngest.Models
         public string AmountDisplay{ get { return Math.Round(Amount, 2).ToString();} } 
         [Display(Name = "Transaction Time")]
         public DateTime TransactionTime { get; set; } // already in UTC
+        [Display(Name = "24-Hour Range")]
+        public DateTime FullDayRange { get; set; } // already in UTC
         [StringLength(19)]
         [Display(Name = "Audit History")]
         public string AuditHistory { get; set; }
         [Display(Name = "Revision Number")]
         public int RevisionNumber { get; set; }
+
+        public static Transaction DeepCopy(Transaction inTransaction)
+        {
+            Transaction deepCopyTrans = new Transaction(); 
+
+            deepCopyTrans.SourceSystem = inTransaction.SourceSystem;
+            deepCopyTrans.TransactionId = inTransaction.TransactionId;
+            deepCopyTrans.CardNumber = inTransaction.CardNumber;
+            deepCopyTrans.LocationCode = inTransaction.LocationCode;
+            deepCopyTrans.ProductName = inTransaction.ProductName;
+            deepCopyTrans.Amount = inTransaction.Amount;
+            deepCopyTrans.TransactionTime = inTransaction.TransactionTime;
+            deepCopyTrans.FullDayRange = inTransaction.FullDayRange;
+            deepCopyTrans.AuditHistory = inTransaction.AuditHistory;
+            deepCopyTrans.RevisionNumber = inTransaction.RevisionNumber;
+
+            return deepCopyTrans;
+        }
 
     }
 }
