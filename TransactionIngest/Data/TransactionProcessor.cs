@@ -88,6 +88,7 @@ namespace TransactionIngest.Data
                 // find any transaction within the last 24 hours which need to be updated (has matching primary key)
                 Transaction transToUpdate = context.Transactions.FirstOrDefault(trans => trans.TransactionTime >= startRange && (trans.SourceSystem + trans.TransactionId.ToString() == uniqueID));
 
+                // Logging is handled in the functions called here
                 if (transToUpdate is null) { // no matching transaction detected; must be a new record
                     insertedTransaction = markInsert(currTransaction);
                     insertUpdateTransactions.Add(insertedTransaction);
@@ -125,8 +126,8 @@ namespace TransactionIngest.Data
             else // details have changed; remove and re-insert
             {
                 Console.WriteLine("Updating transaction for " + transToUpdate.SourceSystem + ", " + transToUpdate.TransactionId);
-
                 context.Transactions.Remove(transToUpdate);
+                currTransaction.FullDayRange = currTransaction.TransactionTime.AddDays(1);
                 currTransaction.AuditHistory = "updated";
                 currTransaction.RevisionNumber = newRevision + 1;
                 return currTransaction; // only want to re-add if updated
@@ -148,27 +149,12 @@ namespace TransactionIngest.Data
                     continue;
                 }
 
-                // find out why the update isn't getting revoked
-                if (uniqueID == "Store Uptown100018")
-                {
-                    Console.WriteLine("DEBUG: earliestDate " + earliestDate); // 2/27/2026 8:00:30 AM
-                    Console.WriteLine("DEBUG: origTransac.TransactionTime " + origTransac.TransactionTime); // 2/27/2026 9:42:30 AM
-                    Console.WriteLine("DEBUG: latestDate "+ latestDate); // 2/27/2026 11:54:30 AM
-                    Console.WriteLine("DEBUG: origTransac.FullDayRange " + origTransac.FullDayRange); // 1/1/0001 12:00:00 AM
-                }
-
                 // if any batch during 24 hour range does not include ID, revoke
                 //      need to capture overlap where batch range includes start date & where batch range includes end date
                 // TransactionTime indicates start of 24H range, FullDayRange indicates end of 24H range
                 if ((earliestDate <= origTransac.TransactionTime && latestDate <= origTransac.FullDayRange) || (earliestDate >= origTransac.TransactionTime && latestDate >= origTransac.FullDayRange))
                 {
                     inRange = true;
-                }
-
-                if (uniqueID == "Store Uptown100018")
-                {
-                    Console.WriteLine("DEBUG: inRange " + inRange); // False
-                    Console.WriteLine("DEBUG: batchIDs.Contains(uniqueID) " + batchIDs.Contains(uniqueID)); // False
                 }
 
                 // separating out for readability & maintenance
@@ -190,6 +176,7 @@ namespace TransactionIngest.Data
                 Transaction currTransaction = Transaction.DeepCopy(toRevoke);
                 currTransaction.AuditHistory = "revoked";
                 currTransaction.RevisionNumber ++;
+                
                 Console.WriteLine("Revoking transaction for " + currTransaction.SourceSystem + ", " + currTransaction.TransactionId);
                 context.Remove(toRevoke);
                 revokedTransactions.Add(currTransaction);
@@ -229,7 +216,7 @@ namespace TransactionIngest.Data
             Console.WriteLine("SaveToDB start at " + DateTime.Now);
             Console.WriteLine(logSeparator);
 
-            List<Transaction> hourlyTransactions = GetTransactions("hour_4_sample.json"); // hardcoding to test
+            List<Transaction> hourlyTransactions = GetTransactions("hour_5_sample.json"); // hardcoding to test
             parseImport(context, hourlyTransactions);
             context.SaveChanges(); // save insert into DB
 
