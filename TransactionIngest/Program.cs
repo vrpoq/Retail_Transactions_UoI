@@ -33,7 +33,6 @@ using (var scope = app.Services.CreateScope())
 
     context.Database.EnsureCreated();
     TransactionProcessor.SaveToDB(context);
-    //DbInitializer.Initialize(context);
 }
 
 app.UseHttpsRedirection();
