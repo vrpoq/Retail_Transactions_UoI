@@ -32,7 +32,8 @@ using (var scope = app.Services.CreateScope())
     var context = services.GetRequiredService<TransactionContext>();
 
     context.Database.EnsureCreated();
-    TransactionProcessor.SaveToDB(context);
+    // uncomment to import first file's data on program load
+    //TransactionProcessor.SaveToDB(context, "hour_1_sample.json");
 }
 
 app.UseHttpsRedirection();

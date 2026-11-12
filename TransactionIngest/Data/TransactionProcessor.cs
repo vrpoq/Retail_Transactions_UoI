@@ -291,7 +291,7 @@ namespace TransactionIngest.Data
             }
         }
 
-        public static void SaveToDB(TransactionContext context)
+        public static void SaveToDB(TransactionContext context, string fileName)
         {
             try
             {
@@ -299,7 +299,7 @@ namespace TransactionIngest.Data
                 Console.WriteLine("SaveToDB start at " + DateTime.Now);
                 Console.WriteLine(logSeparator);
 
-                List<Transaction> hourlyTransactions = GetTransactions("hour_2_sample.json"); // hardcoding to test
+                List<Transaction> hourlyTransactions = GetTransactions(fileName); // hardcoding to test
                 parseImport(context, hourlyTransactions);
                 context.SaveChanges(); // save insert into DB
 

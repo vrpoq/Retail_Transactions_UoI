@@ -25,5 +25,15 @@ namespace TransactionIngest.Pages.Transactions
         {
             Transaction = TransactionProcessor.PostTransactions(_context);
         }
+
+        public IActionResult OnPost(string fileName) // pass in name/id of textbox value
+        {
+            // import new values
+            TransactionProcessor.SaveToDB(_context, fileName);
+            // add to display list
+            Transaction = TransactionProcessor.PostTransactions(_context);
+            // refresh index
+            return RedirectToPage("./Index");
+        }
     }
 }
