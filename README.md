@@ -7,7 +7,7 @@
 - This project is designed to throw errors if the user is not in the Development environment; always need someone else to take a look at my work before I push it to production
 - Run from Visual Studio Code using Run button with open .cs file (such as Program.cs or TransactionProcessor.cs)
 
-# Decision decisions and assumptions
+# Design decisions and assumptions
 
 - No AI assistance was used in the development of this project
 
